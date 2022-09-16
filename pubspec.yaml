@@ -1,7 +1,7 @@
 name: animated_emoji
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+description: "Show beautiful animated emojis 🚀"
+version: 1.0.0
+homepage: https://github.com/RoundedInfinity/animated_emoji
 
 environment:
   sdk: '>=2.19.0-177.0.dev <3.0.0'
