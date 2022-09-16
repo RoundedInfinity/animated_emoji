@@ -1,10 +1,10 @@
 name: animated_emoji
-description: "Show beautiful animated emojis 🚀"
+description: "Show beautiful animated emojis"
 version: 1.0.0
 homepage: https://github.com/RoundedInfinity/animated_emoji
 
 environment:
-  sdk: '>=2.19.0-177.0.dev <3.0.0'
+  sdk: '>=2.18.0 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
