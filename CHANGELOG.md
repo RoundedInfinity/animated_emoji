@@ -1,4 +1,8 @@
-## 1.0.1+1
+# 1.0.1+2
+
+* **doc**: Using GIF instead of WEBP because pub.dev can only show GIFs.
+
+# 1.0.1+1
 
 * **deprecated**:  `simpson` skintone. Use a value of `null` instead.
 * **doc**: Updated readme to use WEBP.

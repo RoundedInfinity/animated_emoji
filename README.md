@@ -11,11 +11,11 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
+![🚀](example/screenshots/rocket.gif)
+
 # Animated Emoji
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
-
-![Rocket](example/screenshots/rocket.webp)
 
 Provides over 150 animated emojis for your app.
 
