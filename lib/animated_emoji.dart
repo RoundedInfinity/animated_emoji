@@ -4,7 +4,7 @@
 ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
 /// </picture>
 ///
-/// Library for using [AnimatedEmoji].
+/// Library for using `AnimatedEmoji`.
 library animated_emoji;
 
 export 'emoji.dart';

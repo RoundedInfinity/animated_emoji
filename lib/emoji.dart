@@ -64,7 +64,7 @@ class AnimatedEmoji extends StatelessWidget {
 
   /// This function is called after the animation was sucsessfully loaded.
   ///
-  /// [duration] returns the duration of the emoji animation.
+  /// `duration` returns the duration of the emoji animation.
   /// This can be used to set the duration of a animation controller.
   ///
   ///```dart
@@ -81,9 +81,9 @@ class AnimatedEmoji extends StatelessWidget {
       return 'https://fonts.gstatic.com/s/e/notoemoji/latest/${id.substring(1)}/lottie.json';
     }
 
-    final IconThemeData iconTheme = IconTheme.of(context);
+    final iconTheme = IconTheme.of(context);
 
-    final double? iconSize = size ?? iconTheme.size;
+    final iconSize = size ?? iconTheme.size;
     return SizedBox(
       height: iconSize,
       width: iconSize,

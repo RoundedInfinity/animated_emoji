@@ -1,10 +1,22 @@
 /// The skin tone used for emojis
 enum SkinTone {
+  ///  🤙🏻Light skin tone
   light,
+
+  /// 🤙🏼 Medium Light skin tone
   mediumLight,
+
+  /// 🤙🏽 Medium skin tone
   medium,
+
+  /// 🤙🏾 Medium Dark skin tone
   mediumDark,
+
+  /// 🤙🏿 Dark skin tone
   dark,
+
+  /// 🤙 Default yellow skin tone.
+  @Deprecated('Use a value of null instead')
   simpson,
 }
 
@@ -1213,7 +1225,7 @@ class AnimatedEmojis {
   /// AnimatedEmojis.clap(SkinTone.simpson)
   /// ```
   /// {@endtemplate}
-  static AnimatedEmojiData thumb(SkinTone? tone) =>
+  static AnimatedEmojiData thumb([SkinTone? tone]) =>
       AnimatedEmojiData(_skinToneVariation('u1f44d', tone));
 
   /// <picture>
@@ -1225,7 +1237,7 @@ class AnimatedEmojis {
   /// Animated emoji of _clap_.
   ///
   /// {@macro skin_tone}
-  static AnimatedEmojiData clap(SkinTone? tone) =>
+  static AnimatedEmojiData clap([SkinTone? tone]) =>
       AnimatedEmojiData(_skinToneVariation('u1f44f', tone));
 
   /// <picture>
@@ -1237,7 +1249,7 @@ class AnimatedEmojis {
   /// Animated emoji of _raisingHands_.
   ///
   /// {@macro skin_tone}
-  static AnimatedEmojiData raisingHands(SkinTone? tone) =>
+  static AnimatedEmojiData raisingHands([SkinTone? tone]) =>
       AnimatedEmojiData(_skinToneVariation('u1f64c', tone));
 
   /// <picture>
@@ -1249,7 +1261,7 @@ class AnimatedEmojis {
   /// Animated emoji of _wave_.
   ///
   /// {@macro skin_tone}
-  static AnimatedEmojiData wave(SkinTone? tone) =>
+  static AnimatedEmojiData wave([SkinTone? tone]) =>
       AnimatedEmojiData(_skinToneVariation('u1f44b', tone));
 
   /// <picture>
@@ -1260,7 +1272,7 @@ class AnimatedEmojis {
   ///
   /// Animated emoji of _victory_.
   /// {@macro skin_tone}
-  static AnimatedEmojiData victory(SkinTone? tone) =>
+  static AnimatedEmojiData victory([SkinTone? tone]) =>
       AnimatedEmojiData(_skinToneVariation('u270c_fe0f', tone));
 
   /// <picture>
@@ -1271,7 +1283,7 @@ class AnimatedEmojis {
   ///
   /// Animated emoji of _crossedFingers_.
   /// {@macro skin_tone}
-  static AnimatedEmojiData crossedFingers(SkinTone? tone) =>
+  static AnimatedEmojiData crossedFingers([SkinTone? tone]) =>
       AnimatedEmojiData(_skinToneVariation('u1f91e', tone));
 
   /// <picture>
@@ -1282,7 +1294,7 @@ class AnimatedEmojis {
   ///
   /// Animated emoji of _indexFinger_.
   /// {@macro skin_tone}
-  static AnimatedEmojiData indexFinger(SkinTone? tone) =>
+  static AnimatedEmojiData indexFinger([SkinTone? tone]) =>
       AnimatedEmojiData(_skinToneVariation('u261d_fe0f', tone));
 
   /// <picture>
@@ -1293,10 +1305,10 @@ class AnimatedEmojis {
   ///
   /// Animated emoji of _please_.
   /// {@macro skin_tone}
-  static AnimatedEmojiData please(SkinTone? tone) =>
+  static AnimatedEmojiData please([SkinTone? tone]) =>
       AnimatedEmojiData(_skinToneVariation('u1f64f', tone));
 
-  static String _skinToneVariation(String code, SkinTone? tone) {
+  static String _skinToneVariation(String code, [SkinTone? tone]) {
     switch (tone) {
       case SkinTone.dark:
         return '${code}_1f3ff';
@@ -1308,7 +1320,10 @@ class AnimatedEmojis {
         return '${code}_1f3fc';
       case SkinTone.light:
         return '${code}_1f3fb';
-      default:
+      // ignore: deprecated_member_use_from_same_package
+      case SkinTone.simpson:
+        return code;
+      case null:
         return code;
     }
   }
@@ -1328,8 +1343,10 @@ class AnimatedEmojis {
 
 /// A description of an animated emoji.
 class AnimatedEmojiData {
-  final String id;
-
   /// A description of an animated emoji.
   const AnimatedEmojiData(this.id);
+
+  /// The identifier of the emoji.
+  /// See [Noto Animated Emoji](https://googlefonts.github.io/noto-emoji-animation/) for the available ids.
+  final String id;
 }
