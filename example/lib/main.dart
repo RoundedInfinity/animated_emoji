@@ -1,6 +1,5 @@
 import 'package:animated_emoji/animated_emoji.dart';
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,12 +29,11 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            AnimatedEmoji.asset(AnimatedEmojis.smile),
             const AnimatedEmoji(
               AnimatedEmojis.rocket,
             ),
             const AnimatedEmoji(
-              AnimatedEmojis.goat,
+              AnimatedEmojis.smile,
               size: 128,
               repeat: false,
             ),
