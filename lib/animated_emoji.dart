@@ -9,3 +9,4 @@ library animated_emoji;
 
 export 'emoji.dart';
 export 'emojis.dart';
+export 'model.dart';
