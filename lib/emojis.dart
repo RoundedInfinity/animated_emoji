@@ -1,25 +1,3 @@
-/// The skin tone used for emojis
-enum SkinTone {
-  ///  🤙🏻Light skin tone
-  light,
-
-  /// 🤙🏼 Medium Light skin tone
-  mediumLight,
-
-  /// 🤙🏽 Medium skin tone
-  medium,
-
-  /// 🤙🏾 Medium Dark skin tone
-  mediumDark,
-
-  /// 🤙🏿 Dark skin tone
-  dark,
-
-  /// 🤙 Default yellow skin tone.
-  @Deprecated('Use a value of null instead')
-  simpson,
-}
-
 /// A collection of all animated emojis.
 class AnimatedEmojis {
   AnimatedEmojis._();
@@ -1216,17 +1194,12 @@ class AnimatedEmojis {
   ///
   /// Animated emoji of _thumb_.
   ///
-  /// {@template skin_tone}
-  /// You can define the skin color of this emoji using the tone attribute.
-  /// ```dart
-  /// // Returns a dark emoji 👏🏿
-  /// AnimatedEmojis.clap(SkinTone.dark)
-  /// // Returns a yellow emoji 👏
-  /// AnimatedEmojis.clap(SkinTone.simpson)
-  /// ```
-  /// {@endtemplate}
-  static AnimatedEmojiData thumb([SkinTone? tone]) =>
-      AnimatedEmojiData(_skinToneVariation('u1f44d', tone));
+  static const thumb = AnimatedEmojiData('u1f44d');
+  static const thumbDark = AnimatedEmojiData('u1f44d_1f3ff');
+  static const thumbMediumDark = AnimatedEmojiData('u1f44d_1f3fe');
+  static const thumbMedium = AnimatedEmojiData('u1f44d_1f3fd');
+  static const thumbMediumLight = AnimatedEmojiData('u1f44d_1f3fc');
+  static const thumbLight = AnimatedEmojiData('u1f44d_1f3fb');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44f/512.avif" type="image/avif">
@@ -1236,9 +1209,12 @@ class AnimatedEmojis {
   ///
   /// Animated emoji of _clap_.
   ///
-  /// {@macro skin_tone}
-  static AnimatedEmojiData clap([SkinTone? tone]) =>
-      AnimatedEmojiData(_skinToneVariation('u1f44f', tone));
+  static const clap = AnimatedEmojiData('u1f44f');
+  static const clapDark = AnimatedEmojiData('u1f44f_1f3ff');
+  static const clapMediumDark = AnimatedEmojiData('u1f44f_1f3fe');
+  static const clapMedium = AnimatedEmojiData('u1f44f_1f3fd');
+  static const clapMediumLight = AnimatedEmojiData('u1f44f_1f3fc');
+  static const clapLight = AnimatedEmojiData('u1f44f_1f3fb');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f64c/512.avif" type="image/avif">
@@ -1248,9 +1224,12 @@ class AnimatedEmojis {
   ///
   /// Animated emoji of _raisingHands_.
   ///
-  /// {@macro skin_tone}
-  static AnimatedEmojiData raisingHands([SkinTone? tone]) =>
-      AnimatedEmojiData(_skinToneVariation('u1f64c', tone));
+  static const raisingHands = AnimatedEmojiData('u1f64c');
+  static const raisingHandsDark = AnimatedEmojiData('u1f64c_1f3ff');
+  static const raisingHandsMediumDark = AnimatedEmojiData('u1f64c_1f3fe');
+  static const raisingHandsMedium = AnimatedEmojiData('u1f64c_1f3fd');
+  static const raisingHandsMediumLight = AnimatedEmojiData('u1f64c_1f3fc');
+  static const raisingHandsLight = AnimatedEmojiData('u1f64c_1f3fb');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.avif" type="image/avif">
@@ -1260,9 +1239,12 @@ class AnimatedEmojis {
   ///
   /// Animated emoji of _wave_.
   ///
-  /// {@macro skin_tone}
-  static AnimatedEmojiData wave([SkinTone? tone]) =>
-      AnimatedEmojiData(_skinToneVariation('u1f44b', tone));
+  static const wave = AnimatedEmojiData('u1f44b');
+  static const waveDark = AnimatedEmojiData('u1f44b_1f3ff');
+  static const waveMediumDark = AnimatedEmojiData('u1f44b_1f3fe');
+  static const waveMedium = AnimatedEmojiData('u1f44b_1f3fd');
+  static const waveMediumLight = AnimatedEmojiData('u1f44b_1f3fc');
+  static const waveLight = AnimatedEmojiData('u1f44b_1f3fb');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270c_fe0f/512.avif" type="image/avif">
@@ -1271,9 +1253,7 @@ class AnimatedEmojis {
   /// </picture>
   ///
   /// Animated emoji of _victory_.
-  /// {@macro skin_tone}
-  static AnimatedEmojiData victory([SkinTone? tone]) =>
-      AnimatedEmojiData(_skinToneVariation('u270c_fe0f', tone));
+  static const victory = AnimatedEmojiData('u270c_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f91e/512.avif" type="image/avif">
@@ -1282,9 +1262,12 @@ class AnimatedEmojis {
   /// </picture>
   ///
   /// Animated emoji of _crossedFingers_.
-  /// {@macro skin_tone}
-  static AnimatedEmojiData crossedFingers([SkinTone? tone]) =>
-      AnimatedEmojiData(_skinToneVariation('u1f91e', tone));
+  static const crossedFingers = AnimatedEmojiData('u1f91e');
+  static const crossedFingersDark = AnimatedEmojiData('u1f91e_1f3ff');
+  static const crossedFingersMediumDark = AnimatedEmojiData('u1f91e_1f3fe');
+  static const crossedFingersMedium = AnimatedEmojiData('u1f91e_1f3fd');
+  static const crossedFingersMediumLight = AnimatedEmojiData('u1f91e_1f3fc');
+  static const crossedFingersLight = AnimatedEmojiData('u1f91e_1f3fb');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_fe0f/512.avif" type="image/avif">
@@ -1293,9 +1276,7 @@ class AnimatedEmojis {
   /// </picture>
   ///
   /// Animated emoji of _indexFinger_.
-  /// {@macro skin_tone}
-  static AnimatedEmojiData indexFinger([SkinTone? tone]) =>
-      AnimatedEmojiData(_skinToneVariation('u261d_fe0f', tone));
+  static const indexFinger = AnimatedEmojiData('u261d_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f64f/512.avif" type="image/avif">
@@ -1304,29 +1285,12 @@ class AnimatedEmojis {
   /// </picture>
   ///
   /// Animated emoji of _please_.
-  /// {@macro skin_tone}
-  static AnimatedEmojiData please([SkinTone? tone]) =>
-      AnimatedEmojiData(_skinToneVariation('u1f64f', tone));
-
-  static String _skinToneVariation(String code, [SkinTone? tone]) {
-    switch (tone) {
-      case SkinTone.dark:
-        return '${code}_1f3ff';
-      case SkinTone.mediumDark:
-        return '${code}_1f3fe';
-      case SkinTone.medium:
-        return '${code}_1f3fd';
-      case SkinTone.mediumLight:
-        return '${code}_1f3fc';
-      case SkinTone.light:
-        return '${code}_1f3fb';
-      // ignore: deprecated_member_use_from_same_package
-      case SkinTone.simpson:
-        return code;
-      case null:
-        return code;
-    }
-  }
+  static const please = AnimatedEmojiData('u1f64f');
+  static const pleaseDark = AnimatedEmojiData('u1f64f_1f3ff');
+  static const pleaseMediumDark = AnimatedEmojiData('u1f64f_1f3fe');
+  static const pleaseMedium = AnimatedEmojiData('u1f64f_1f3fd');
+  static const pleaseMediumLight = AnimatedEmojiData('u1f64f_1f3fc');
+  static const pleaseLight = AnimatedEmojiData('u1f64f_1f3fb');
 
   /// Return the animated emoji that equals [code].
   ///

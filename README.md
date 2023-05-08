@@ -27,7 +27,30 @@ Provides over 150 animated emojis for your app.
 
 ## Usage
 
-Just use the AnimatedEmoji widget anywhere in your application and choose an emoji.
+1. Load lottie from internet: Default
+No configuration needed.
+
+2. Load lottie from asset
+main.dart
+```dart
+...
+void main() async {
+  ...
+  AnimatedEmoji.source = 'asset';
+  ...
+}
+```
+
+pubspec.yaml
+```yaml
+...
+flutter:
+  assets:
+    - packages/animated_emoji/lottie/rocket.json
+    - packages/animated_emoji/lottie/clapDark.json
+```
+
+Then just use the AnimatedEmoji widget anywhere in your application and choose an emoji.
 
 ```dart
 const AnimatedEmoji(
@@ -39,7 +62,7 @@ Configure the widget to your needs.
 
 ```dart
 AnimatedEmoji(
-  AnimatedEmojis.clap(SkinTone.dark),
+  AnimatedEmojis.clapDark,
   size: 128,
   repeat: false,
 ),
@@ -52,6 +75,8 @@ AnimatedEmoji(
 </picture>
 
 ## Additional information
+
+On Web due to CORS you need to forcefully load lottie from asset.
 
 An internet connection is required to load the emojis, you can additionally provide an `errorWidget` when the network connection is not available.
 

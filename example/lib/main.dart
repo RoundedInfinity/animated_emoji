@@ -28,19 +28,19 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: const Text('Animated Emoji')),
       body: Center(
         child: Column(
-          children: [
-            const AnimatedEmoji(
+          children: const [
+            AnimatedEmoji(
               AnimatedEmojis.rocket,
             ),
-            const AnimatedEmoji(
+            AnimatedEmoji(
               AnimatedEmojis.smile,
               size: 128,
               repeat: false,
             ),
             AnimatedEmoji(
-              AnimatedEmojis.clap(SkinTone.dark),
+              AnimatedEmojis.clapDark,
             ),
-            const DemoHoverEmoji(),
+            DemoHoverEmoji(),
           ],
         ),
       ),
