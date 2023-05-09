@@ -567,13 +567,13 @@ class AnimatedEmojis {
   static const blush = AnimatedEmojiData('u1f60a');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/263a_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/263a_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/263a_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/263a_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/263a_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/263a_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Warm-smile.
-  static const warmSmile = AnimatedEmojiData('u263a_Fe0f');
+  static const warmSmile = AnimatedEmojiData('u263a_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f60c/512.avif" type="image/avif">
@@ -729,13 +729,13 @@ class AnimatedEmojis {
   static const mouthNone = AnimatedEmojiData('u1f636');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Face-in-clouds.
-  static const faceInClouds = AnimatedEmojiData('u1f636_200d_1f32b_Fe0f');
+  static const faceInClouds = AnimatedEmojiData('u1f636_200d_1f32b_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fae5/512.avif" type="image/avif">
@@ -963,13 +963,13 @@ class AnimatedEmojis {
   static const cry = AnimatedEmojiData('u1f622');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2639_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2639_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2639_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2639_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2639_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2639_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Big-frown.
-  static const bigFrown = AnimatedEmojiData('u2639_Fe0f');
+  static const bigFrown = AnimatedEmojiData('u2639_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f641/512.avif" type="image/avif">
@@ -1539,13 +1539,13 @@ class AnimatedEmojis {
   static const poutingCat = AnimatedEmojiData('u1f63e');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Red-heart.
-  static const redHeart = AnimatedEmojiData('u2764_Fe0f');
+  static const redHeart = AnimatedEmojiData('u2764_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9e1/512.avif" type="image/avif">
@@ -1719,22 +1719,22 @@ class AnimatedEmojis {
   static const loveLetter = AnimatedEmojiData('u1f48c');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2763_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2763_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2763_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2763_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2763_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2763_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Heart-exclamation-point.
-  static const heartExclamationPoint = AnimatedEmojiData('u2763_Fe0f');
+  static const heartExclamationPoint = AnimatedEmojiData('u2763_fe0f');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f_200d_1fa79/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f_200d_1fa79/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f_200d_1fa79/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f_200d_1fa79/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f_200d_1fa79/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f_200d_1fa79/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Bandaged-heart.
-  static const bandagedHeart = AnimatedEmojiData('u2764_Fe0f_200d_1fa79');
+  static const bandagedHeart = AnimatedEmojiData('u2764_fe0f_200d_1fa79');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f494/512.avif" type="image/avif">
@@ -1746,13 +1746,13 @@ class AnimatedEmojis {
   static const brokenHeart = AnimatedEmojiData('u1f494');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f_200d_1f525/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f_200d_1f525/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_Fe0f_200d_1f525/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f_200d_1f525/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f_200d_1f525/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f_200d_1f525/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Fire-heart.
-  static const fireHeart = AnimatedEmojiData('u2764_Fe0f_200d_1f525');
+  static const fireHeart = AnimatedEmojiData('u2764_fe0f_200d_1f525');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f48b/512.avif" type="image/avif">
@@ -1818,13 +1818,13 @@ class AnimatedEmojis {
   static const eyes = AnimatedEmojiData('u1f440');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f441_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Eye.
-  static const eye = AnimatedEmojiData('u1f441_Fe0f');
+  static const eye = AnimatedEmojiData('u1f441_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fae6/512.avif" type="image/avif">
@@ -2178,13 +2178,13 @@ class AnimatedEmojis {
   static const waveDark = AnimatedEmojiData('u1f44b_1f3ff');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270c_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270c_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270c_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270c_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270c_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270c_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Victory.
-  static const victory = AnimatedEmojiData('u270c_Fe0f');
+  static const victory = AnimatedEmojiData('u270c_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270c_1f3fb/512.avif" type="image/avif">
@@ -2286,13 +2286,13 @@ class AnimatedEmojis {
   static const crossedFingersDark = AnimatedEmojiData('u1f91e_1f3ff');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Index-finger.
-  static const indexFinger = AnimatedEmojiData('u261d_Fe0f');
+  static const indexFinger = AnimatedEmojiData('u261d_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_1f3fb/512.avif" type="image/avif">
@@ -2493,13 +2493,13 @@ class AnimatedEmojis {
   static const luck = AnimatedEmojiData('u1f340');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Snowflake.
-  static const snowflake = AnimatedEmojiData('u2744_Fe0f');
+  static const snowflake = AnimatedEmojiData('u2744_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30b/512.avif" type="image/avif">
@@ -2538,13 +2538,13 @@ class AnimatedEmojis {
   static const rainbow = AnimatedEmojiData('u1f308');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32c_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32c_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32c_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32c_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32c_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32c_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Wind-face.
-  static const windFace = AnimatedEmojiData('u1f32c_Fe0f');
+  static const windFace = AnimatedEmojiData('u1f32c_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/26a1/512.avif" type="image/avif">
@@ -2565,13 +2565,13 @@ class AnimatedEmojis {
   static const dizzy = AnimatedEmojiData('u1f4ab');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Comet.
-  static const comet = AnimatedEmojiData('u2604_Fe0f');
+  static const comet = AnimatedEmojiData('u2604_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30d/512.avif" type="image/avif">
@@ -2745,13 +2745,13 @@ class AnimatedEmojis {
   static const monkey = AnimatedEmojiData('u1f412');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43f_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43f_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43f_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43f_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43f_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43f_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Chipmunk.
-  static const chipmunk = AnimatedEmojiData('u1f43f_Fe0f');
+  static const chipmunk = AnimatedEmojiData('u1f43f_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a6/512.avif" type="image/avif">
@@ -2817,13 +2817,13 @@ class AnimatedEmojis {
   static const eagle = AnimatedEmojiData('u1f985');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f54a_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f54a_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f54a_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f54a_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f54a_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f54a_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Peace.
-  static const peace = AnimatedEmojiData('u1f54a_Fe0f');
+  static const peace = AnimatedEmojiData('u1f54a_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabf/512.avif" type="image/avif">
@@ -3222,13 +3222,13 @@ class AnimatedEmojis {
   static const graduationCap = AnimatedEmojiData('u1f393');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2602_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2602_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2602_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2602_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2602_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2602_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Umbrella.
-  static const umbrella = AnimatedEmojiData('u2602_Fe0f');
+  static const umbrella = AnimatedEmojiData('u2602_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f48e/512.avif" type="image/avif">
@@ -3249,13 +3249,13 @@ class AnimatedEmojis {
   static const alarmClock = AnimatedEmojiData('u23f0');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6ce_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6ce_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6ce_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6ce_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6ce_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6ce_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Bellhop-bell.
-  static const bellhopBell = AnimatedEmojiData('u1f6ce_Fe0f');
+  static const bellhopBell = AnimatedEmojiData('u1f6ce_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f514/512.avif" type="image/avif">
@@ -3384,13 +3384,13 @@ class AnimatedEmojis {
   static const ophiuchus = AnimatedEmojiData('u26ce');
 
   /// <picture>
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/203c_Fe0f/512.avif" type="image/avif">
-  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/203c_Fe0f/512.webp" type="image/webp">
-  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/203c_Fe0f/512.gif" width="32" height="32">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/203c_fe0f/512.avif" type="image/avif">
+  ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/203c_fe0f/512.webp" type="image/webp">
+  ///   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/203c_fe0f/512.gif" width="32" height="32">
   /// </picture>
   ///
   /// Animated emoji of Exclamation-double.
-  static const exclamationDouble = AnimatedEmojiData('u203c_Fe0f');
+  static const exclamationDouble = AnimatedEmojiData('u203c_fe0f');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/274c/512.avif" type="image/avif">
