@@ -119,7 +119,7 @@ class AnimatedEmojis {
     moonFaceLastQuarter,
     sunWithFace,
     fire,
-    oneHundered,
+    oneHundred,
     glowingStar,
     sparkles,
     collision,
@@ -1392,7 +1392,7 @@ class AnimatedEmojis {
   /// </picture>
   ///
   /// Animated emoji of 100.
-  static const oneHundered = AnimatedEmojiData('u1f4af');
+  static const oneHundred = AnimatedEmojiData('u1f4af');
 
   /// <picture>
   ///   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.avif" type="image/avif">
