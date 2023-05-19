@@ -17,7 +17,7 @@ and the Flutter guide for
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
-Provides over 150 animated emojis for your app.
+Provides over 300 animated emojis for your app.
 
 <picture>
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f92f/512.avif" type="image/avif">
@@ -27,35 +27,24 @@ Provides over 150 animated emojis for your app.
 
 ## Usage
 
-1. Load lottie from internet: Default
-No configuration needed.
+Just use the AnimatedEmoji widget anywhere in your application and choose an emoji.
 
-2. Load lottie from asset
-main.dart
 ```dart
-...
-void main() async {
-  ...
-  AnimatedEmoji.source = 'asset';
-  ...
-}
+const AnimatedEmoji(
+  AnimatedEmojis.rocket,
+),
 ```
 
-pubspec.yaml
+You can also load the emoji from assets. (This is **required** on web due to CORS)
+
+First, import the emoji to your `pubspec.yaml`. The names can be found [here](<https://googlefonts.github.io/noto-emoji-animation/>).
+
 ```yaml
 ...
 flutter:
   assets:
     - packages/animated_emoji/lottie/rocket.json
     - packages/animated_emoji/lottie/clapDark.json
-```
-
-Then just use the AnimatedEmoji widget anywhere in your application and choose an emoji.
-
-```dart
-const AnimatedEmoji(
-  AnimatedEmojis.rocket,
-),
 ```
 
 Configure the widget to your needs.
@@ -77,7 +66,5 @@ AnimatedEmoji(
 ## Additional information
 
 On Web due to CORS you need to forcefully load lottie from asset.
-
-An internet connection is required to load the emojis, you can additionally provide an `errorWidget` when the network connection is not available.
 
 This package uses [Noto Animated Emoji](https://googlefonts.github.io/noto-emoji-animation/) which is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
