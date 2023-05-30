@@ -3802,10 +3802,10 @@ class AnimatedEmojis {
 
   /// Return the animated emoji that equals [code].
   ///
-  /// When no emoji is found an exeption is thrown.
+  /// When no emoji is found a [StateError] is thrown.
   ///
   /// ```dart
-  /// // Will return a fiework emoji 🎆
+  /// // Will return a firework emoji 🎆
   /// AnimatedEmojis.fromCode('u1f386')
   /// ```
   static AnimatedEmojiData fromCode(String code) {

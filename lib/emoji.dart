@@ -12,6 +12,7 @@ enum AnimatedEmojiSource {
 
   /// Loads the emoji from the assets.
   ///
+  ///  @{template offline_use}
   /// You need add the emojis you want to use to your assets first.
   ///
   /// Example:
@@ -20,6 +21,7 @@ enum AnimatedEmojiSource {
   ///   - packages/animated_emoji/lottie/rocket.json
   ///   - packages/animated_emoji/lottie/clap.json
   ///```
+  /// @{endtemplate}
   asset,
 }
 
@@ -28,10 +30,12 @@ enum AnimatedEmojiSource {
 ///
 /// [emoji] defines which emoji is displayed.
 ///
+/// [source] determents whether the emoji is loaded from
+/// the network or assets.
+///
 /// The animation is repeatedly played by default.
 /// Change this behavior with [repeat] and [animate].
 ///
-/// To load the animated emoji, a internet connection is required.
 ///
 /// This example shows how to create a emoji that animates once.
 /// <picture>
@@ -49,6 +53,8 @@ enum AnimatedEmojiSource {
 ///```
 /// {@endtemplate}
 class AnimatedEmoji extends StatelessWidget {
+  /// Creates an animated emoji
+  ///
   /// {@macro animated_emoji}
   const AnimatedEmoji(
     this.emoji, {
@@ -64,10 +70,12 @@ class AnimatedEmoji extends StatelessWidget {
 
   /// The source from where the emoji is loaded.
   ///
+  /// On Web due to CORS you cannot fetch the emoji from network.
+  ///
   /// This defaults to [AnimatedEmojiSource.network],
   /// except for **web** where it defaults to [AnimatedEmojiSource.asset].
   ///
-  /// On Web due to CORS you cannot fetch the emoji from network.
+  /// {@macro offline_use}
   final AnimatedEmojiSource? source;
 
   /// The [AnimatedEmojiData] used for this widget.
@@ -114,12 +122,18 @@ class AnimatedEmoji extends StatelessWidget {
     final emojiSource = source ??
         (kIsWeb ? AnimatedEmojiSource.asset : AnimatedEmojiSource.network);
 
+    final networkUrl =
+        'https://fonts.gstatic.com/s/e/notoemoji/latest/${emoji.id.substring(1)}/lottie.json';
+
+    final assetName =
+        'lottie/${AnimatedEmojis.getCamelCaseName(emoji.id)}.json';
+
     return SizedBox(
       height: iconSize,
       width: iconSize,
       child: emojiSource == AnimatedEmojiSource.network
           ? Lottie.network(
-              'https://fonts.gstatic.com/s/e/notoemoji/latest/${emoji.id.substring(1)}/lottie.json',
+              networkUrl,
               repeat: repeat,
               animate: animate,
               controller: controller,
@@ -133,7 +147,7 @@ class AnimatedEmoji extends StatelessWidget {
               },
             )
           : Lottie.asset(
-              'lottie/${AnimatedEmojis.getCamelCaseName(emoji.id)}.json',
+              assetName,
               package: 'animated_emoji',
               repeat: repeat,
               animate: animate,
