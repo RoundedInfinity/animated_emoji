@@ -1,16 +1,41 @@
 import 'package:animated_emoji/emojis.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+
+/// An enum controlling where an [AnimatedEmoji] is loaded from.
+enum AnimatedEmojiSource {
+  /// Loads the emoji from network.
+  ///
+  /// Does not work on web due to CORS.
+  network,
+
+  /// Loads the emoji from the assets.
+  ///
+  ///  @{template offline_use}
+  /// You need add the emojis you want to use to your assets first.
+  ///
+  /// Example:
+  /// ```yaml
+  /// assets:
+  ///   - packages/animated_emoji/lottie/rocket.json
+  ///   - packages/animated_emoji/lottie/clap.json
+  ///```
+  /// @{endtemplate}
+  asset,
+}
 
 /// {@template animated_emoji}
 /// A widget that shows an animated emoji.
 ///
 /// [emoji] defines which emoji is displayed.
 ///
-/// The animation is repeadedly played by default.
+/// [source] determents whether the emoji is loaded from
+/// the network or assets.
+///
+/// The animation is repeatedly played by default.
 /// Change this behavior with [repeat] and [animate].
 ///
-/// To load the animated emoji, a internet connection is required.
 ///
 /// This example shows how to create a emoji that animates once.
 /// <picture>
@@ -28,10 +53,13 @@ import 'package:lottie/lottie.dart';
 ///```
 /// {@endtemplate}
 class AnimatedEmoji extends StatelessWidget {
+  /// Creates an animated emoji
+  ///
   /// {@macro animated_emoji}
   const AnimatedEmoji(
     this.emoji, {
     this.size,
+    this.source,
     this.controller,
     super.key,
     this.repeat = true,
@@ -39,6 +67,16 @@ class AnimatedEmoji extends StatelessWidget {
     this.errorWidget,
     this.onLoaded,
   });
+
+  /// The source from where the emoji is loaded.
+  ///
+  /// On Web due to CORS you cannot fetch the emoji from network.
+  ///
+  /// This defaults to [AnimatedEmojiSource.network],
+  /// except for **web** where it defaults to [AnimatedEmojiSource.asset].
+  ///
+  /// {@macro offline_use}
+  final AnimatedEmojiSource? source;
 
   /// The [AnimatedEmojiData] used for this widget.
   ///
@@ -53,16 +91,16 @@ class AnimatedEmoji extends StatelessWidget {
   /// Whether to play the animation once or repeatedly
   final bool repeat;
 
-  /// Controlls if the animation is active.
+  /// Controls if the animation is active.
   final bool animate;
 
   /// Widget shown when the emoji failed to load.
   final Widget? errorWidget;
 
-  /// [AnimationController] that controlls the animation.
+  /// [AnimationController] that controls the animation.
   final Animation<double>? controller;
 
-  /// This function is called after the animation was sucsessfully loaded.
+  /// This function is called after the animation was successfully loaded.
   ///
   /// `duration` returns the duration of the emoji animation.
   /// This can be used to set the duration of a animation controller.
@@ -77,30 +115,52 @@ class AnimatedEmoji extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String asUrl(String id) {
-      return 'https://fonts.gstatic.com/s/e/notoemoji/latest/${id.substring(1)}/lottie.json';
-    }
-
     final iconTheme = IconTheme.of(context);
 
     final iconSize = size ?? iconTheme.size;
+
+    final emojiSource = source ??
+        (kIsWeb ? AnimatedEmojiSource.asset : AnimatedEmojiSource.network);
+
+    final networkUrl =
+        'https://fonts.gstatic.com/s/e/notoemoji/latest/${emoji.id.substring(1)}/lottie.json';
+
+    final assetName =
+        'lottie/${AnimatedEmojis.getCamelCaseName(emoji.id)}.json';
+
     return SizedBox(
       height: iconSize,
       width: iconSize,
-      child: Lottie.network(
-        asUrl(emoji.id),
-        repeat: repeat,
-        animate: animate,
-        controller: controller,
-        errorBuilder: errorWidget != null
-            ? (context, error, stackTrace) {
-                return errorWidget!;
-              }
-            : null,
-        onLoaded: (comp) {
-          onLoaded?.call(comp.duration);
-        },
-      ),
+      child: emojiSource == AnimatedEmojiSource.network
+          ? Lottie.network(
+              networkUrl,
+              repeat: repeat,
+              animate: animate,
+              controller: controller,
+              errorBuilder: errorWidget != null
+                  ? (context, error, stackTrace) {
+                      return errorWidget!;
+                    }
+                  : null,
+              onLoaded: (comp) {
+                onLoaded?.call(comp.duration);
+              },
+            )
+          : Lottie.asset(
+              assetName,
+              package: 'animated_emoji',
+              repeat: repeat,
+              animate: animate,
+              controller: controller,
+              errorBuilder: errorWidget != null
+                  ? (context, error, stackTrace) {
+                      return errorWidget!;
+                    }
+                  : null,
+              onLoaded: (comp) {
+                onLoaded?.call(comp.duration);
+              },
+            ),
     );
   }
 }

@@ -1,6 +1,6 @@
 name: animated_emoji
 description: "Show beautiful, customizable animated emojis using Noto Animated Emoji"
-version: 1.0.1+2
+version: 2.0.0
 homepage: https://github.com/RoundedInfinity/animated_emoji
 
 environment:
@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  lottie: ^2.0.0
+  lottie: ^2.3.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  very_good_analysis: ^3.1.0
+  very_good_analysis: ^5.0.0+1
 
 screenshots:
   - description: "🚀 An animated rocket"

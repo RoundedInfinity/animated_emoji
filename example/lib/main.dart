@@ -26,21 +26,21 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Animated Emoji')),
-      body: Center(
+      body: const Center(
         child: Column(
           children: [
-            const AnimatedEmoji(
+            AnimatedEmoji(
               AnimatedEmojis.rocket,
             ),
-            const AnimatedEmoji(
+            AnimatedEmoji(
               AnimatedEmojis.smile,
               size: 128,
               repeat: false,
             ),
             AnimatedEmoji(
-              AnimatedEmojis.clap(SkinTone.dark),
+              AnimatedEmojis.clap,
             ),
-            const DemoHoverEmoji(),
+            DemoHoverEmoji(),
           ],
         ),
       ),
