@@ -20,7 +20,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.19.0-177.0.dev <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -64,3 +64,5 @@ flutter:
     - packages/animated_emoji/lottie/clap.json
     - packages/animated_emoji/lottie/brokenHeart.json
     - packages/animated_emoji/lottie/smile.json
+    - packages/animated_emoji/lottie/rocket.json
+    - packages/animated_emoji/lottie/sunglassesFace.json

@@ -31,6 +31,8 @@ class HomePage extends StatelessWidget {
           children: [
             AnimatedEmoji(
               AnimatedEmojis.rocket,
+              size: 128,
+              repeat: true,
             ),
             AnimatedEmoji(
               AnimatedEmojis.smile,
