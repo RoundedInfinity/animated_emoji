@@ -3811,6 +3811,43 @@ class AnimatedEmojis {
   static AnimatedEmojiData fromCode(String code) {
     return values.firstWhere((element) => element.id == code);
   }
+
+
+  /// Return the animates emoji that equals a [emoji].
+  ///
+  /// When no matching animated emoji is found, `null` is returned.
+  ///
+  ///```dart
+  /// // will return animated emoji of redHeart ❤️
+  /// final animated = AnimatedEmojis.fromEmojiString('❤️') // returns AnimatedEmojis.redHeart
+  /// ```
+  static AnimatedEmojiData? fromEmojiString(String emoji){
+    String parseEmojiCode(String str) {
+      final runes = str.runes.toList();
+      var code = '';
+      for (var i = 0; i < runes.length; i++) {
+        if (i == 0) {
+          code += 'u${runes[i].toRadixString(16)}';
+        } else {
+          code += runes[i].toRadixString(16);
+        }
+
+        if(i != runes.length - 1) code += '_';
+      }
+      return code;
+    }
+
+    final code = parseEmojiCode(emoji);
+
+    for (final v in AnimatedEmojis.values) {
+      if (code == v.id) {
+        return v;
+      }
+    }
+
+    return null;
+  }
+
 }
 
 /// A description of an animated emoji.
