@@ -1,3 +1,28 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:flutter/foundation.dart';
+
+/// An exception thrown when a emoji is not found.
+class EmojiNotFoundException implements Exception {
+  /// An exception thrown when a emoji is not found.
+  const EmojiNotFoundException(this.message);
+
+  /// Exception thrown when failing to find an emoji from name.
+  EmojiNotFoundException.fromName(String name)
+      : message = 'Could not find animated emoji with name: $name';
+
+  /// Exception thrown when failing to find an emoji from id.
+  EmojiNotFoundException.fromId(String id)
+      : message = 'Could not find animated emoji with id: $id';
+
+  /// The message explaining what was not found.
+  final String message;
+
+  @override
+  String toString() {
+    return message;
+  }
+}
+
 /// A collection of all animated emojis.
 class AnimatedEmojis {
   AnimatedEmojis._();
@@ -700,8 +725,40 @@ class AnimatedEmojis {
   /// Returns the name of the emoji from the [id] in camel case.
   ///
   /// For example: `u1f603` => smileWithBigEyes
+  ///
+  /// Throws a [EmojiNotFoundException] when no emoji with [id] exists.
+  ///
+  /// See also:
+  /// - [getIdFromName]
   static String getCamelCaseName(String id) {
-    return _idToNames[id]!;
+    final name = _idToNames[id];
+    if (name == null) {
+      throw EmojiNotFoundException('Could not find emoji with id $id');
+    }
+    return name;
+  }
+
+  /// Return the id of the emoji from its camel case name.
+  ///
+  /// For example: 'smileWithBigEyes' => `u1f603`.
+  ///
+  /// Throws a [EmojiNotFoundException] when no emoji with [name] exists.
+  ///
+  /// See also:
+  /// - [getCamelCaseName]
+  static String getIdFromName(String name) {
+    final nameToIds = <String, String>{};
+    _idToNames.forEach((key, value) {
+      nameToIds[value] = key;
+    });
+
+    final id = nameToIds[name];
+
+    if (id == null) {
+      throw EmojiNotFoundException.fromName(name);
+    }
+
+    return id;
   }
 
   /// <picture>
@@ -3802,16 +3859,42 @@ class AnimatedEmojis {
 
   /// Return the animated emoji that equals [code].
   ///
-  /// When no emoji is found a [StateError] is thrown.
+  /// When no emoji is found a [EmojiNotFoundException] is thrown.
   ///
   /// ```dart
   /// // Will return a firework emoji 🎆
   /// AnimatedEmojis.fromCode('u1f386')
   /// ```
-  static AnimatedEmojiData fromCode(String code) {
-    return values.firstWhere((element) => element.id == code);
+  @Deprecated('Use fromId instead.')
+  static AnimatedEmojiData fromCode(String code) => fromId(code);
+
+  /// Return the animated emoji that equals [id].
+  ///
+  /// When no emoji is found a [EmojiNotFoundException] is thrown.
+  ///
+  /// ```dart
+  /// // Will return a firework emoji 🎆
+  /// AnimatedEmojis.fromId('u1f386')
+  /// ```
+  static AnimatedEmojiData fromId(String id) {
+    try {
+      return values.firstWhere((element) => element.id == id);
+    } catch (_) {
+      throw EmojiNotFoundException.fromId(id);
+    }
   }
 
+  /// Return the animated emoji of [name].
+  ///
+  /// When no emoji is found a [EmojiNotFoundException] is thrown.
+  ///
+  /// ```dart
+  /// // Will return a rose emoji 🌹
+  /// AnimatedEmojis.fromName('rose')
+  /// ```
+  static AnimatedEmojiData fromName(String name) {
+    return AnimatedEmojiData(getIdFromName(name));
+  }
 
   /// Return the animates emoji that equals a [emoji].
   ///
@@ -3821,7 +3904,7 @@ class AnimatedEmojis {
   /// // will return animated emoji of redHeart ❤️
   /// final animated = AnimatedEmojis.fromEmojiString('❤️') // returns AnimatedEmojis.redHeart
   /// ```
-  static AnimatedEmojiData? fromEmojiString(String emoji){
+  static AnimatedEmojiData? fromEmojiString(String emoji) {
     String parseEmojiCode(String str) {
       final runes = str.runes.toList();
       var code = '';
@@ -3832,7 +3915,7 @@ class AnimatedEmojis {
           code += runes[i].toRadixString(16);
         }
 
-        if(i != runes.length - 1) code += '_';
+        if (i != runes.length - 1) code += '_';
       }
       return code;
     }
@@ -3847,15 +3930,48 @@ class AnimatedEmojis {
 
     return null;
   }
-
 }
 
 /// A description of an animated emoji.
+@immutable
 class AnimatedEmojiData {
   /// A description of an animated emoji.
   const AnimatedEmojiData(this.id);
 
   /// The identifier of the emoji.
+  ///
   /// See [Noto Animated Emoji](https://googlefonts.github.io/noto-emoji-animation/) for the available ids.
   final String id;
+
+  /// Return the unicode emoji associated with this emoji.
+  ///
+  /// Example:
+  /// ```dart
+  /// final emoji = AnimatedEmojis.angry.toUnicodeEmoji();
+  /// print(emoji); // Prints 😠
+  /// ```
+  String toUnicodeEmoji() {
+    final codes = <int>[];
+
+    final parts = id.substring(1).split('_');
+    for (final part in parts) {
+      codes.add(int.parse(part, radix: 16));
+    }
+    return String.fromCharCodes(codes);
+  }
+
+  @override
+  String toString() {
+    return 'AnimatedEmojiData(${toUnicodeEmoji()})';
+  }
+
+  @override
+  bool operator ==(covariant AnimatedEmojiData other) {
+    if (identical(this, other)) return true;
+
+    return other.id == id;
+  }
+
+  @override
+  int get hashCode => id.hashCode;
 }

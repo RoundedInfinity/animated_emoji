@@ -1,5 +1,25 @@
 # Changelog
 
+## 2.1.0 - 2023-10-29
+
+### Added
+
+- `fromEmojiString` function on that returns the animated emoji version on an unicode emoji ([@fahidsarker]([(https://github.com/fahidsarker)]))
+  
+- `toUnicodeEmoji` to AnimatedEmojiData that returns the unicode emoji of this emoji.
+
+- `fromName` that returns the emoji from its camel case name. 
+
+### Changed
+
+- Improved error messages.
+
+- Made AnimatedEmojiData immutable and added equality.
+
+### Deprecated
+
+- Renamed `fromCode` to `fromId`.
+
 ## 2.0.0 - 2023-05-30
 
 ### Removed
