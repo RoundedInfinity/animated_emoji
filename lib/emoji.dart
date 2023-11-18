@@ -1,4 +1,4 @@
-import 'package:animated_emoji/emojis.dart';
+import 'package:animated_emoji/emoji_data.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -123,10 +123,9 @@ class AnimatedEmoji extends StatelessWidget {
         (kIsWeb ? AnimatedEmojiSource.asset : AnimatedEmojiSource.network);
 
     final networkUrl =
-        'https://fonts.gstatic.com/s/e/notoemoji/latest/${emoji.id.substring(1)}/lottie.json';
+        'https://fonts.gstatic.com/s/e/notoemoji/latest/${emoji.id}/lottie.json';
 
-    final assetName =
-        'lottie/${AnimatedEmojis.getCamelCaseName(emoji.id)}.json';
+    final assetName = 'lottie/${emoji.name}.json';
 
     return SizedBox(
       height: iconSize,

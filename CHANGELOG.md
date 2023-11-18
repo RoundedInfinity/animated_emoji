@@ -1,5 +1,30 @@
 # Changelog
 
+## [3.0.0] - 2023-11-18
+
+### Added
+
+- **Breaking**: Added option to get the skin tone variation of an emoji. The emoji variations are not included into the list anymore. 
+
+Instead of:
+```dart
+AnimatedEmojis.clapDark
+```
+do:
+```dart
+AnimatedEmojis.clap.dark
+// or
+AnimatedEmojis.clap.withSkinTone(SkinTone.dark)
+```
+- Added names to `AnimatedEmojiData`.
+- Added more emojis.
+
+### Changed
+
+- Some emoji names may have changed
+
+
+
 ## 2.1.0 - 2023-10-29
 
 ### Added

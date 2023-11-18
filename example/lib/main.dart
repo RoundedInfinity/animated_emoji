@@ -26,23 +26,24 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Animated Emoji')),
-      body: const Center(
+      body: Center(
         child: Column(
           children: [
-            AnimatedEmoji(
+            const AnimatedEmoji(
               AnimatedEmojis.rocket,
               size: 128,
               repeat: true,
             ),
-            AnimatedEmoji(
+            const AnimatedEmoji(
               AnimatedEmojis.smile,
               size: 128,
               repeat: false,
             ),
             AnimatedEmoji(
-              AnimatedEmojis.clap,
+              // Change the skin tone
+              AnimatedEmojis.wave.dark,
             ),
-            DemoHoverEmoji(),
+            const DemoHoverEmoji(),
           ],
         ),
       ),
@@ -86,6 +87,38 @@ class _DemoHoverEmojiState extends State<DemoHoverEmoji>
           controller.duration = duration;
         },
       ),
+    );
+  }
+}
+
+/// Showcases advanced usage of animated emojis.
+class AdvancedUsageEmojis extends StatelessWidget {
+  const AdvancedUsageEmojis({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        AnimatedEmoji(
+          AnimatedEmojis.fromId('1f386'),
+        ),
+        AnimatedEmoji(
+          AnimatedEmojis.fromEmojiString('❤️')!,
+        ),
+        Builder(
+          builder: (context) {
+            // Get an emoji from name.
+            final emoji = AnimatedEmojis.fromName('victory');
+
+            // Check if the emoji supports skin tones.
+            return AnimatedEmoji(
+              emoji.hasSkinTones
+                  ? (emoji as AnimatedTonedEmojiData).mediumLight
+                  : emoji,
+            );
+          },
+        ),
+      ],
     );
   }
 }
