@@ -1,7 +1,9 @@
 name: animated_emoji
 description: "Show beautiful, customizable animated emojis using Noto Animated Emoji"
 version: 3.0.0
-homepage: https://github.com/RoundedInfinity/animated_emoji
+repository: https://github.com/RoundedInfinity/animated_emoji
+issue_tracker: https://github.com/RoundedInfinity/animated_emoji/issues
+
 topics:
   - emoji
   - emojis

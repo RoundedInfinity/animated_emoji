@@ -60,7 +60,7 @@ class AnimatedEmojiDataUtil {
       final emoji =
           AnimatedEmojis.values.firstWhere((element) => element.name == name);
 
-      return emoji.name;
+      return emoji.id;
     } catch (e) {
       throw EmojiNotFoundException.fromName(name);
     }

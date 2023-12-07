@@ -1,35 +1,51 @@
 # Changelog
 
-## [3.0.0] - 2023-11-18
+## 3.0.0 - 2023-11-18
 
 ### Added
 
 - **Breaking**: Added option to get the skin tone variation of an emoji. The emoji variations are not included into the list anymore. 
-
-Instead of:
-```dart
-AnimatedEmojis.clapDark
-```
-do:
-```dart
-AnimatedEmojis.clap.dark
-// or
-AnimatedEmojis.clap.withSkinTone(SkinTone.dark)
-```
+  
+    Instead of:
+    ```dart
+    AnimatedEmojis.clapDark
+    ```
+    do:
+    ```dart
+    AnimatedEmojis.clap.dark
+    // or
+    AnimatedEmojis.clap.withSkinTone(SkinTone.dark)
+    ```
+- Web support for network emojis.
+  
 - Added names to `AnimatedEmojiData`.
+  
 - Added more emojis.
+
+- Added `AnimatedEmojiDataUtil` utility class.
 
 ### Changed
 
+- **Breaking:** Changed ID format for emojis. Now the ids do not begin with `u`. `fromId` and `getCamelCaseName` are still compatible with the legacy IDs beginning with `u`. 
+
+    Instead of :
+    ```dart
+    AnimatedEmojiData('u1f386');
+    ```
+    Do: 
+    ```dart
+    AnimatedEmojiData('1f386',name: 'smileWithBigEyes');
+    ```
 - Some emoji names may have changed
 
+- When `source` is not set the `AnimatedEmoji` widget now tries to load the emoji from assets first, then falls back to network.
 
 
 ## 2.1.0 - 2023-10-29
 
 ### Added
 
-- `fromEmojiString` function on that returns the animated emoji version on an unicode emoji ([@fahidsarker]([(https://github.com/fahidsarker)]))
+- `fromEmojiString` function on that returns the animated emoji version on an unicode emoji ([@fahidsarker](https://github.com/fahidsarker))
   
 - `toUnicodeEmoji` to AnimatedEmojiData that returns the unicode emoji of this emoji.
 

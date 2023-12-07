@@ -32,12 +32,13 @@ class HomePage extends StatelessWidget {
             const AnimatedEmoji(
               AnimatedEmojis.rocket,
               size: 128,
-              repeat: true,
             ),
             const AnimatedEmoji(
-              AnimatedEmojis.smile,
+              AnimatedEmojis.victory,
               size: 128,
               repeat: false,
+              // Force the emoji to be loaded from assets.
+              source: AnimatedEmojiSource.asset,
             ),
             AnimatedEmoji(
               // Change the skin tone

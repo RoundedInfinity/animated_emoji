@@ -83,6 +83,7 @@ class AnimatedTonedEmojiData extends AnimatedEmojiData {
     super.id, {
     required super.name,
     this.baseId,
+    this.skinTone,
   });
 
   /// The base id of this emoji.
@@ -91,6 +92,11 @@ class AnimatedTonedEmojiData extends AnimatedEmojiData {
   final String? baseId;
 
   String get _baseId => baseId ?? id.split('_').first;
+
+  /// The skin tone of this emoji.
+  ///
+  /// If skin tone is `null` the default yellow emoji is shown.
+  final SkinTone? skinTone;
 
   /// Returns a variation of this emoji with [skinTone].
   AnimatedEmojiData withSkinTone(SkinTone skinTone) {
@@ -109,22 +115,37 @@ class AnimatedTonedEmojiData extends AnimatedEmojiData {
   }
 
   /// Emoji variation with a light skin tone.
-  AnimatedEmojiData get light =>
-      AnimatedEmojiData('${_baseId}_1f3fb', name: '${name}Light');
+  AnimatedTonedEmojiData get light => AnimatedTonedEmojiData(
+        '${_baseId}_1f3fb',
+        name: '${name}Light',
+        skinTone: SkinTone.light,
+      );
 
   /// Emoji variation with a medium light skin tone.
-  AnimatedEmojiData get mediumLight =>
-      AnimatedEmojiData('${_baseId}_1f3fc', name: '${name}MediumLight');
+  AnimatedTonedEmojiData get mediumLight => AnimatedTonedEmojiData(
+        '${_baseId}_1f3fc',
+        name: '${name}MediumLight',
+        skinTone: SkinTone.mediumLight,
+      );
 
   /// Emoji variation with a medium skin tone.
-  AnimatedEmojiData get medium =>
-      AnimatedEmojiData('${_baseId}_1f3fd', name: '${name}Medium');
+  AnimatedTonedEmojiData get medium => AnimatedTonedEmojiData(
+        '${_baseId}_1f3fd',
+        name: '${name}Medium',
+        skinTone: SkinTone.medium,
+      );
 
   /// Emoji variation with a medium dark skin tone.
-  AnimatedEmojiData get mediumDark =>
-      AnimatedEmojiData('${_baseId}_1f3fe', name: '${name}MediumDark');
+  AnimatedTonedEmojiData get mediumDark => AnimatedTonedEmojiData(
+        '${_baseId}_1f3fe',
+        name: '${name}MediumDark',
+        skinTone: SkinTone.mediumDark,
+      );
 
   /// Emoji variation with a dark skin tone.
-  AnimatedEmojiData get dark =>
-      AnimatedEmojiData('${_baseId}_1f3ff', name: '${name}Dark');
+  AnimatedTonedEmojiData get dark => AnimatedTonedEmojiData(
+        '${_baseId}_1f3ff',
+        name: '${name}Dark',
+        skinTone: SkinTone.dark,
+      );
 }

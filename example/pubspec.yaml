@@ -60,10 +60,9 @@ flutter:
   uses-material-design: true
 
   assets:
-    # - packages/animated_emoji/lottie/rocket.json
+    - packages/animated_emoji/lottie/rocket.json
     - packages/animated_emoji/lottie/victory.json
     - packages/animated_emoji/lottie/waveDark.json
-
     - packages/animated_emoji/lottie/brokenHeart.json
     - packages/animated_emoji/lottie/smile.json
     - packages/animated_emoji/lottie/rocket.json

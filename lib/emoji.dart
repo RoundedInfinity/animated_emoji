@@ -1,5 +1,4 @@
 import 'package:animated_emoji/emoji_data.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -7,21 +6,25 @@ import 'package:lottie/lottie.dart';
 enum AnimatedEmojiSource {
   /// Loads the emoji from network.
   ///
-  /// Does not work on web due to CORS.
+  /// Requires an internet connection.
   network,
 
   /// Loads the emoji from the assets.
   ///
-  ///  @{template offline_use}
-  /// You need add the emojis you want to use to your assets first.
+  /// {@template offline_use}
+  /// To load emojis from assets, add them to your pubspec.
+  ///
+  /// You need to import the specific skin tones to use them.
   ///
   /// Example:
   /// ```yaml
   /// assets:
   ///   - packages/animated_emoji/lottie/rocket.json
-  ///   - packages/animated_emoji/lottie/clap.json
+  ///    # Import the dark skin tone.
+  ///    # Available skin tones: Light, MediumLight, Medium, MediumDark, Dark
+  ///   - packages/animated_emoji/lottie/clapDark.json
   ///```
-  /// @{endtemplate}
+  /// {@endtemplate}
   asset,
 }
 
@@ -31,7 +34,8 @@ enum AnimatedEmojiSource {
 /// [emoji] defines which emoji is displayed.
 ///
 /// [source] determents whether the emoji is loaded from
-/// the network or assets.
+/// the network or assets. By default this tries to load from
+/// assets and falls back to network.
 ///
 /// The animation is repeatedly played by default.
 /// Change this behavior with [repeat] and [animate].
@@ -70,10 +74,8 @@ class AnimatedEmoji extends StatelessWidget {
 
   /// The source from where the emoji is loaded.
   ///
-  /// On Web due to CORS you cannot fetch the emoji from network.
-  ///
-  /// This defaults to [AnimatedEmojiSource.network],
-  /// except for **web** where it defaults to [AnimatedEmojiSource.asset].
+  /// When this is `null` the widget tires to load them from
+  /// assets and then falls back to web.
   ///
   /// {@macro offline_use}
   final AnimatedEmojiSource? source;
@@ -119,43 +121,58 @@ class AnimatedEmoji extends StatelessWidget {
 
     final iconSize = size ?? iconTheme.size;
 
-    final emojiSource = source ??
-        (kIsWeb ? AnimatedEmojiSource.asset : AnimatedEmojiSource.network);
-
     final networkUrl =
         'https://fonts.gstatic.com/s/e/notoemoji/latest/${emoji.id}/lottie.json';
 
     final assetName = 'lottie/${emoji.name}.json';
 
+    final assetWidget = Lottie.asset(
+      assetName,
+      package: 'animated_emoji',
+      repeat: repeat,
+      animate: animate,
+      controller: controller,
+      errorBuilder: errorWidget != null
+          ? (context, error, stackTrace) {
+              return errorWidget!;
+            }
+          : null,
+      onLoaded: (comp) {
+        onLoaded?.call(comp.duration);
+      },
+    );
+
+    final networkWidget = Lottie.network(
+      networkUrl,
+      repeat: repeat,
+      animate: animate,
+      controller: controller,
+      errorBuilder: errorWidget != null
+          ? (context, error, stackTrace) {
+              return errorWidget!;
+            }
+          : null,
+      onLoaded: (comp) {
+        onLoaded?.call(comp.duration);
+      },
+    );
+
     return SizedBox(
       height: iconSize,
       width: iconSize,
-      child: emojiSource == AnimatedEmojiSource.network
-          ? Lottie.network(
-              networkUrl,
-              repeat: repeat,
-              animate: animate,
-              controller: controller,
-              errorBuilder: errorWidget != null
-                  ? (context, error, stackTrace) {
-                      return errorWidget!;
-                    }
-                  : null,
-              onLoaded: (comp) {
-                onLoaded?.call(comp.duration);
-              },
-            )
+      child: source != null
+          ? source == AnimatedEmojiSource.asset
+              ? assetWidget
+              : networkWidget
           : Lottie.asset(
               assetName,
               package: 'animated_emoji',
               repeat: repeat,
               animate: animate,
               controller: controller,
-              errorBuilder: errorWidget != null
-                  ? (context, error, stackTrace) {
-                      return errorWidget!;
-                    }
-                  : null,
+              errorBuilder: (context, error, stackTrace) {
+                return networkWidget;
+              },
               onLoaded: (comp) {
                 onLoaded?.call(comp.duration);
               },
