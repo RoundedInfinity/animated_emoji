@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.1.0 - 2024-02-18
+
+### Changed
+
+- Changed [lottie](https://pub.dev/packages/lottie/changelog) version to 3.0.0. ([#11](https://github.com/RoundedInfinity/animated_emoji/issues/11))
+
 ## 3.0.0 - 2023-11-18
 
 ### Added
