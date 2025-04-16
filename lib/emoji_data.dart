@@ -4,7 +4,12 @@ import 'package:flutter/foundation.dart';
 @immutable
 class AnimatedEmojiData {
   /// A description of an animated emoji.
-  const AnimatedEmojiData(this.id, {required this.name});
+  const AnimatedEmojiData(
+    this.id, {
+    required this.name,
+    this.categories = const [],
+    this.tags = const [],
+  });
 
   /// The identifier of the emoji.
   ///
@@ -16,8 +21,18 @@ class AnimatedEmojiData {
   /// For example 🚀 is 'rocket'.
   final String name;
 
+  /// The categories this emoji belongs to
+  /// (e.g. ""Smileys and emotions"", "Travel and places", ...).
+  final List<String> categories;
+
+  /// The tags associated with this emoji (e.g. ":smile:", ":grin:", ...).
+  final List<String> tags;
+
   /// Wether this emoji has skin tone variations.
   bool get hasSkinTones => this is AnimatedTonedEmojiData;
+
+  /// All available skin tone variations for this emoji.
+  List<AnimatedEmojiData> get variations => [this];
 
   /// Return the unicode emoji associated with this emoji.
   ///
@@ -74,6 +89,12 @@ enum SkinTone {
 /// with different skin tones.
 ///
 /// By default, this uses a yellow skin tone.
+///
+/// ### Example
+/// ```dart
+/// // Get a dark skin tone emoji
+/// final emojiData = AnimatedEmojis.wave.dark
+/// ```
 class AnimatedTonedEmojiData extends AnimatedEmojiData {
   /// A description of an animated emoji that has variations
   /// with different skin tones.
@@ -84,6 +105,8 @@ class AnimatedTonedEmojiData extends AnimatedEmojiData {
     required super.name,
     this.baseId,
     this.skinTone,
+    super.categories = const [],
+    super.tags = const [],
   });
 
   /// The base id of this emoji.
@@ -148,4 +171,19 @@ class AnimatedTonedEmojiData extends AnimatedEmojiData {
         name: '${name}Dark',
         skinTone: SkinTone.dark,
       );
+
+  @override
+  List<AnimatedEmojiData> get variations => [
+        this,
+        light,
+        mediumLight,
+        medium,
+        mediumDark,
+        dark,
+      ];
+
+  @override
+  String toString() {
+    return 'AnimatedTonedEmojiData(${toUnicodeEmoji()}+${variations.length - 1})';
+  }
 }

@@ -72,6 +72,7 @@ class _EmojiViewState extends State<_EmojiView>
         widget.emoji,
         controller: controller,
         size: 32,
+        errorWidget: Text("error loading ${widget.emoji.name}"),
         onLoaded: (duration) {
           controller.duration = duration;
         },

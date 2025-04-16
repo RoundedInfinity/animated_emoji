@@ -4,7 +4,7 @@
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
-Provides over 400 animated emojis for your app.
+Provides over 450 animated emojis for your app.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Just use the AnimatedEmoji widget anywhere in your application and choose an emo
 
 ```dart
 const AnimatedEmoji(
-  AnimatedEmojis.rocket,
+  AnimatedEmojis.rocket, // 🚀
 ),
 ```
 
@@ -20,17 +20,27 @@ Configure the widget to your needs.
 
 ```dart
 AnimatedEmoji(
-  AnimatedEmojis.clap.dark,
+  AnimatedEmojis.clap, // 👏
   size: 128,
   repeat: false,
 ),
 ```
 
+Some emojis also support variations in skin color.
+
+```dart
+const AnimatedEmoji(
+  AnimatedEmojis.clap.dark, // 👏🏿
+),
+```
+
+### Offline support
+
 You can also add emojis to your assets for **offline support**.
 
-First, import the emoji to your `pubspec.yaml`. The names can be found [here](<https://googlefonts.github.io/noto-emoji-animation/>).
+First, import the emoji to your `pubspec.yaml`. The names can be found [here](https://github.com/RoundedInfinity/animated_emoji/tree/main/lib/lottie).
 
-You need to import the specific skin tones separately to use them (add the prefix to your imports, e.g. Dark, Light, ...)
+You need to import the specific skin tones separately to use them (add the suffix to your imports, e.g. Dark, MediumLight, ...)
 
 ```yaml
 ...
@@ -42,11 +52,11 @@ flutter:
     - packages/animated_emoji/lottie/clapDark.json
 ```
 
-<picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_fe0f/512.avif" type="image/avif">
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_fe0f/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/261d_fe0f/512.gif" alt="☝" width="32" height="32">
-</picture>
+## Contributing
+
+Contributions are always welcome 🔥
+
+Check out the the [animated_emoji_generator](https://github.com/RoundedInfinity/animated_emoji_generator) used to generate the contents of this package.
 
 ## Additional information
 
