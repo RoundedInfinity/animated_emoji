@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.2.1 - 2025-04-25
+
+### Removed
+
+- Removed `loveYouGesture` emoji because the lottie file is not available. ([#14](https://github.com/RoundedInfinity/animated_emoji/issues/14))
+
 ## 3.2.0 - 2025-04-16
 
 ### Added

@@ -2826,24 +2826,6 @@ class AnimatedEmojis {
   );
 
   ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f91f/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f91f/512.gif" alt="loveYouGesture" width="32" height="32">
-  ///</picture>
-  ///
-  /// Animated emoji of loveYouGesture.
-  ///
-  /// This emoji has skin tone variations.
-  ///
-  /// See also:
-  /// - [AnimatedTonedEmojiData] for an example on how to use skin tone variations.
-  static const loveYouGesture = AnimatedTonedEmojiData(
-    '1f91f',
-    name: 'loveYouGesture',
-    categories: ['Smileys and emotions'],
-    tags: [':love-you-gesture:'],
-  );
-
-  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f918/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f918/512.gif" alt="metal" width="32" height="32">
   ///</picture>
@@ -6343,7 +6325,6 @@ class AnimatedEmojis {
     palm,
     raisedHand,
     vulcan,
-    loveYouGesture,
     metal,
     victory,
     crossedFingers,
