@@ -4,7 +4,7 @@
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
-Provides over 450 animated emojis for your app.
+Provides over 600 animated emojis for your app.
 
 ## Usage
 
