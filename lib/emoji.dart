@@ -28,6 +28,18 @@ enum AnimatedEmojiSource {
   asset,
 }
 
+/// An enum describing the cache used for an emoji.
+enum AnimatedEmojiCacheMode {
+  /// Do not use any caching.
+  none,
+
+  /// The frames stored in the cache are fully rasterized. This is the most efficient to render but will use the most memory.
+  raster,
+
+  /// The frames are stored as [dart:ui.Picture] in the cache. It will will spare the CPU work for each frame. The GPU work will be the same as without cache.
+  drawingCommands,
+}
+
 /// {@template animated_emoji}
 /// A widget that shows an animated emoji.
 ///
@@ -70,6 +82,7 @@ class AnimatedEmoji extends StatelessWidget {
     this.animate = true,
     this.errorWidget,
     this.onLoaded,
+    this.cacheMode = AnimatedEmojiCacheMode.none,
   });
 
   /// The source from where the emoji is loaded.
@@ -115,6 +128,9 @@ class AnimatedEmoji extends StatelessWidget {
   /// ```
   final void Function(Duration duration)? onLoaded;
 
+  /// Caching mode used to cache animated emojis.
+  final AnimatedEmojiCacheMode cacheMode;
+
   @override
   Widget build(BuildContext context) {
     final iconTheme = IconTheme.of(context);
@@ -126,17 +142,25 @@ class AnimatedEmoji extends StatelessWidget {
 
     final assetName = 'lottie/${emoji.name}.json';
 
+    final lottieCacheMode = switch (cacheMode) {
+      AnimatedEmojiCacheMode.none => null,
+      AnimatedEmojiCacheMode.raster => RenderCache.raster,
+      AnimatedEmojiCacheMode.drawingCommands => RenderCache.drawingCommands,
+    };
+
     final assetWidget = Lottie.asset(
       assetName,
       package: 'animated_emoji',
+      renderCache: lottieCacheMode,
       repeat: repeat,
       animate: animate,
       controller: controller,
-      errorBuilder: errorWidget != null
-          ? (context, error, stackTrace) {
-              return errorWidget!;
-            }
-          : null,
+      errorBuilder:
+          errorWidget != null
+              ? (context, error, stackTrace) {
+                return errorWidget!;
+              }
+              : null,
       onLoaded: (comp) {
         onLoaded?.call(comp.duration);
       },
@@ -144,14 +168,16 @@ class AnimatedEmoji extends StatelessWidget {
 
     final networkWidget = Lottie.network(
       networkUrl,
+      renderCache: lottieCacheMode,
       repeat: repeat,
       animate: animate,
       controller: controller,
-      errorBuilder: errorWidget != null
-          ? (context, error, stackTrace) {
-              return errorWidget!;
-            }
-          : null,
+      errorBuilder:
+          errorWidget != null
+              ? (context, error, stackTrace) {
+                return errorWidget!;
+              }
+              : null,
       onLoaded: (comp) {
         onLoaded?.call(comp.duration);
       },
@@ -160,23 +186,26 @@ class AnimatedEmoji extends StatelessWidget {
     return SizedBox(
       height: iconSize,
       width: iconSize,
-      child: source != null
-          ? source == AnimatedEmojiSource.asset
-              ? assetWidget
-              : networkWidget
-          : Lottie.asset(
-              assetName,
-              package: 'animated_emoji',
-              repeat: repeat,
-              animate: animate,
-              controller: controller,
-              errorBuilder: (context, error, stackTrace) {
-                return networkWidget;
-              },
-              onLoaded: (comp) {
-                onLoaded?.call(comp.duration);
-              },
-            ),
+      child:
+          source != null
+              ? source == AnimatedEmojiSource.asset
+                  ? assetWidget
+                  : networkWidget
+              // Try to fetch from assets first and use network if this fails.
+              : Lottie.asset(
+                assetName,
+                renderCache: lottieCacheMode,
+                package: 'animated_emoji',
+                repeat: repeat,
+                animate: animate,
+                controller: controller,
+                errorBuilder: (context, error, stackTrace) {
+                  return networkWidget;
+                },
+                onLoaded: (comp) {
+                  onLoaded?.call(comp.duration);
+                },
+              ),
     );
   }
 }

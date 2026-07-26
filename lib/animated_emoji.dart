@@ -5,7 +5,7 @@
 /// </picture>
 ///
 /// Library for using `AnimatedEmoji`.
-library animated_emoji;
+library;
 
 export 'emoji.dart';
 export 'emoji_data.dart';

@@ -9,7 +9,8 @@ class DemoPage extends StatelessWidget {
     const emojis = AnimatedEmojis.values;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Animated Emoji'),
+        title: Text(
+            'Animated Emoji with over ${AnimatedEmojis.values.length} emojis'),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -52,30 +53,33 @@ class _EmojiViewState extends State<_EmojiView>
   @override
   void initState() {
     super.initState();
-    controller = AnimationController(
-      vsync: this,
-    );
+    controller =
+        AnimationController(vsync: this, duration: const Duration(seconds: 1));
   }
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onHover: (hovering) {
-        if (hovering) {
-          controller.forward(from: 0);
-          return;
-        }
-        controller.reset();
-      },
-      onTap: () {},
-      child: AnimatedEmoji(
-        widget.emoji,
-        controller: controller,
-        size: 32,
-        errorWidget: Text("error loading ${widget.emoji.name}"),
-        onLoaded: (duration) {
-          controller.duration = duration;
+    return Tooltip(
+      message: widget.emoji.name,
+      margin: const EdgeInsets.only(top: 24),
+      child: InkWell(
+        onHover: (hovering) {
+          if (hovering) {
+            controller.forward(from: 0);
+            return;
+          }
+          controller.reset();
         },
+        onTap: () {},
+        child: AnimatedEmoji(
+          widget.emoji,
+          controller: controller,
+          size: 32,
+          errorWidget: Text("error loading ${widget.emoji.name}"),
+          onLoaded: (duration) {
+            controller.duration = duration;
+          },
+        ),
       ),
     );
   }

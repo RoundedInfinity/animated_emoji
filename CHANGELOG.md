@@ -1,10 +1,11 @@
 # Changelog
 
-## 3.3.0 - 2026-07-05
+## 3.3.0 - 2026-07-26
 
 ### Added
 
-- Updated the emoji set to the latest Noto Animated Emoji release, adding many new emojis (450 → 609).
+- Caching option to the `AnimatedEmoji` widget.
+- Updated the emoji set to the latest Noto Animated Emoji release, adding many new emojis (450 → 609). 
 - Re-added `loveYouGesture`, whose lottie file is now available upstream.
 
 ### Removed
