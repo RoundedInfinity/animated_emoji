@@ -1,5 +1,21 @@
 # Changelog
 
+## 3.3.0 - 2026-07-05
+
+### Added
+
+- Updated the emoji set to the latest Noto Animated Emoji release, adding many new emojis (450 → 609).
+- Re-added `loveYouGesture`, whose lottie file is now available upstream.
+
+### Removed
+
+- Removed `copyright` and `registered` because their lottie files are not available.
+- Removed `jackOLantern` because it's no longer part of the upstream Noto Animated Emoji set.
+
+### Fixed
+
+- Renamed the `8Ball` emoji identifier to `eightBall`, since `8Ball` is not a valid Dart identifier.
+
 ## 3.2.1 - 2025-04-25
 
 ### Removed

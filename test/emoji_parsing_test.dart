@@ -1,7 +1,7 @@
 import 'package:animated_emoji/animated_emoji.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-const _expectedCount = 450;
+const _expectedCount = 609;
 void main() {
   group('Emoji parsing', () {
     test('Animated emoji count', () {

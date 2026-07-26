@@ -1,4 +1,4 @@
-// Generated code. Do not modify. Generated at 2025-04-16 11:48:35.394215.
+// Generated code. Do not modify. Generated at 2026-07-05 14:23:10.012062.
 
 import 'package:animated_emoji/animated_emoji.dart';
 
@@ -476,16 +476,16 @@ class AnimatedEmojis {
   );
 
   ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f974/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f974/512.gif" alt="woozy" width="32" height="32">
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1faea/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1faea/512.gif" alt="distortedFace" width="32" height="32">
   ///</picture>
   ///
-  /// Animated emoji of woozy.
-  static const woozy = AnimatedEmojiData(
-    '1f974',
-    name: 'woozy',
+  /// Animated emoji of distortedFace.
+  static const distortedFace = AnimatedEmojiData(
+    '1faea',
+    name: 'distortedFace',
     categories: ['Smileys and emotions'],
-    tags: [':woozy:'],
+    tags: [':distorted-face:'],
   );
 
   ///<picture>
@@ -1165,16 +1165,16 @@ class AnimatedEmojis {
   );
 
   ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f976/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f976/512.gif" alt="coldFace" width="32" height="32">
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f974/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f974/512.gif" alt="woozy" width="32" height="32">
   ///</picture>
   ///
-  /// Animated emoji of coldFace.
-  static const coldFace = AnimatedEmojiData(
-    '1f976',
-    name: 'coldFace',
+  /// Animated emoji of woozy.
+  static const woozy = AnimatedEmojiData(
+    '1f974',
+    name: 'woozy',
     categories: ['Smileys and emotions'],
-    tags: [':cold-face:'],
+    tags: [':woozy:'],
   );
 
   ///<picture>
@@ -1188,6 +1188,19 @@ class AnimatedEmojis {
     name: 'hotFace',
     categories: ['Smileys and emotions'],
     tags: [':hot-face:', ':sweat-face:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f976/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f976/512.gif" alt="coldFace" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of coldFace.
+  static const coldFace = AnimatedEmojiData(
+    '1f976',
+    name: 'coldFace',
+    categories: ['Smileys and emotions'],
+    tags: [':cold-face:'],
   );
 
   ///<picture>
@@ -1477,6 +1490,32 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f916/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f916/512.gif" alt="robot" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of robot.
+  static const robot = AnimatedEmojiData(
+    '1f916',
+    name: 'robot',
+    categories: ['Smileys and emotions'],
+    tags: [':robot:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f479/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f479/512.gif" alt="ogre" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of ogre.
+  static const ogre = AnimatedEmojiData(
+    '1f479',
+    name: 'ogre',
+    categories: ['Smileys and emotions'],
+    tags: [':ogre:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2603_fe0f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2603_fe0f/512.gif" alt="snowmanWithSnow" width="32" height="32">
   ///</picture>
@@ -1503,32 +1542,6 @@ class AnimatedEmojis {
   );
 
   ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f383/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f383/512.gif" alt="jackOLantern" width="32" height="32">
-  ///</picture>
-  ///
-  /// Animated emoji of jackOLantern.
-  static const jackOLantern = AnimatedEmojiData(
-    '1f383',
-    name: 'jackOLantern',
-    categories: ['Smileys and emotions'],
-    tags: [':jack-o-lantern:'],
-  );
-
-  ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f916/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f916/512.gif" alt="robot" width="32" height="32">
-  ///</picture>
-  ///
-  /// Animated emoji of robot.
-  static const robot = AnimatedEmojiData(
-    '1f916',
-    name: 'robot',
-    categories: ['Smileys and emotions'],
-    tags: [':robot:'],
-  );
-
-  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47d/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47d/512.gif" alt="alien" width="32" height="32">
   ///</picture>
@@ -1552,6 +1565,32 @@ class AnimatedEmojis {
     name: 'alienMonster',
     categories: ['Smileys and emotions'],
     tags: [':alien-monster:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31a/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31a/512.gif" alt="moonFaceNew" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of moonFaceNew.
+  static const moonFaceNew = AnimatedEmojiData(
+    '1f31a',
+    name: 'moonFaceNew',
+    categories: ['Smileys and emotions'],
+    tags: [':moon-face-new:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31d/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31d/512.gif" alt="moonFaceFull" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of moonFaceFull.
+  static const moonFaceFull = AnimatedEmojiData(
+    '1f31d',
+    name: 'moonFaceFull',
+    categories: ['Smileys and emotions'],
+    tags: [':moon-face-full:'],
   );
 
   ///<picture>
@@ -1750,6 +1789,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2b50/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2b50/512.gif" alt="star" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of star.
+  static const star = AnimatedEmojiData(
+    '2b50',
+    name: 'star',
+    categories: ['Smileys and emotions'],
+    tags: [':star:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.gif" alt="glowingStar" width="32" height="32">
   ///</picture>
@@ -1799,6 +1851,32 @@ class AnimatedEmojis {
     name: 'collision',
     categories: ['Smileys and emotions'],
     tags: [':collision:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1faef/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1faef/512.gif" alt="fight" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of fight.
+  static const fight = AnimatedEmojiData(
+    '1faef',
+    name: 'fight',
+    categories: ['Smileys and emotions'],
+    tags: [':fight:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f573_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f573_fe0f/512.gif" alt="hole" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hole.
+  static const hole = AnimatedEmojiData(
+    '1f573_fe0f',
+    name: 'hole',
+    categories: ['Smileys and emotions'],
+    tags: [':hole:'],
   );
 
   ///<picture>
@@ -2127,6 +2205,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2665_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2665_fe0f/512.gif" alt="heart" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of heart.
+  static const heart = AnimatedEmojiData(
+    '2665_fe0f',
+    name: 'heart',
+    categories: ['Smileys and emotions'],
+    tags: [':heart:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2763_fe0f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2763_fe0f/512.gif" alt="heartExclamationPoint" width="32" height="32">
   ///</picture>
@@ -2192,6 +2283,32 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fac2/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fac2/512.gif" alt="hugging" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hugging.
+  static const hugging = AnimatedEmojiData(
+    '1fac2',
+    name: 'hugging',
+    categories: ['Smileys and emotions'],
+    tags: [':hugging:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5e3_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5e3_fe0f/512.gif" alt="speakingHead" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of speakingHead.
+  static const speakingHead = AnimatedEmojiData(
+    '1f5e3_fe0f',
+    name: 'speakingHead',
+    categories: ['Smileys and emotions'],
+    tags: [':speaking-head:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f463/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f463/512.gif" alt="footprints" width="32" height="32">
   ///</picture>
@@ -2215,6 +2332,19 @@ class AnimatedEmojis {
     name: 'fingerprint',
     categories: ['Smileys and emotions'],
     tags: [':fingerprint:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9e0/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9e0/512.gif" alt="brain" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of brain.
+  static const brain = AnimatedEmojiData(
+    '1f9e0',
+    name: 'brain',
+    categories: ['Smileys and emotions'],
+    tags: [':brain:'],
   );
 
   ///<picture>
@@ -2254,6 +2384,19 @@ class AnimatedEmojis {
     name: 'microbe',
     categories: ['Smileys and emotions'],
     tags: [':microbe:', ':virus:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9b4/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9b4/512.gif" alt="bone" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of bone.
+  static const bone = AnimatedEmojiData(
+    '1f9b4',
+    name: 'bone',
+    categories: ['Smileys and emotions'],
+    tags: [':bone:'],
   );
 
   ///<picture>
@@ -2826,6 +2969,24 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f91f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f91f/512.gif" alt="loveYouGesture" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of loveYouGesture.
+  ///
+  /// This emoji has skin tone variations.
+  ///
+  /// See also:
+  /// - [AnimatedTonedEmojiData] for an example on how to use skin tone variations.
+  static const loveYouGesture = AnimatedTonedEmojiData(
+    '1f91f',
+    name: 'loveYouGesture',
+    categories: ['Smileys and emotions'],
+    tags: [':love-you-gesture:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f918/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f918/512.gif" alt="metal" width="32" height="32">
   ///</picture>
@@ -2893,9 +3054,7 @@ class AnimatedEmojis {
   static const handWithIndexFingerAndThumbCrossed = AnimatedTonedEmojiData(
     '1faf0',
     name: 'handWithIndexFingerAndThumbCrossed',
-    categories: [
-      'Smileys and emotions',
-    ],
+    categories: ['Smileys and emotions'],
     tags: [
       ':hand-with-index-finger-and-thumb-crossed:',
       ':snap:',
@@ -3151,9 +3310,7 @@ class AnimatedEmojis {
   static const foldedHands = AnimatedTonedEmojiData(
     '1f64f',
     name: 'foldedHands',
-    categories: [
-      'Smileys and emotions',
-    ],
+    categories: ['Smileys and emotions'],
     tags: [
       ':folded-hands:',
       ':please:',
@@ -3199,6 +3356,32 @@ class AnimatedEmojis {
     name: 'handshake',
     categories: ['Smileys and emotions'],
     tags: [':handshake:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa82/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa82/512.gif" alt="parachute" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of parachute.
+  static const parachute = AnimatedEmojiData(
+    '1fa82',
+    name: 'parachute',
+    categories: ['People'],
+    tags: [':parachute:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fac8/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fac8/512.gif" alt="hairyCreature" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hairyCreature.
+  static const hairyCreature = AnimatedEmojiData(
+    '1fac8',
+    name: 'hairyCreature',
+    categories: ['People'],
+    tags: [':hairy-creature:'],
   );
 
   ///<picture>
@@ -3259,6 +3442,71 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f337/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f337/512.gif" alt="tulip" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of tulip.
+  static const tulip = AnimatedEmojiData(
+    '1f337',
+    name: 'tulip',
+    categories: ['Animals and nature'],
+    tags: [':tulip:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fab7/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fab7/512.gif" alt="lotus" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of lotus.
+  static const lotus = AnimatedEmojiData(
+    '1fab7',
+    name: 'lotus',
+    categories: ['Animals and nature'],
+    tags: [':lotus:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f338/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f338/512.gif" alt="cherryBlossom" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cherryBlossom.
+  static const cherryBlossom = AnimatedEmojiData(
+    '1f338',
+    name: 'cherryBlossom',
+    categories: ['Animals and nature'],
+    tags: [':cherry-blossom:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabb/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabb/512.gif" alt="hyacinth" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hyacinth.
+  static const hyacinth = AnimatedEmojiData(
+    '1fabb',
+    name: 'hyacinth',
+    categories: ['Animals and nature'],
+    tags: [':hyacinth:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f33c/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f33c/512.gif" alt="blossom" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of blossom.
+  static const blossom = AnimatedEmojiData(
+    '1f33c',
+    name: 'blossom',
+    categories: ['Animals and nature'],
+    tags: [':blossom:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f342/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f342/512.gif" alt="fallenLeaf" width="32" height="32">
   ///</picture>
@@ -3269,6 +3517,45 @@ class AnimatedEmojis {
     name: 'fallenLeaf',
     categories: ['Animals and nature'],
     tags: [':fallen-leaf:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f341/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f341/512.gif" alt="mapleLeaf" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of mapleLeaf.
+  static const mapleLeaf = AnimatedEmojiData(
+    '1f341',
+    name: 'mapleLeaf',
+    categories: ['Animals and nature'],
+    tags: [':maple-leaf:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f344/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f344/512.gif" alt="mushroom" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of mushroom.
+  static const mushroom = AnimatedEmojiData(
+    '1f344',
+    name: 'mushroom',
+    categories: ['Animals and nature'],
+    tags: [':mushroom:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f33f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f33f/512.gif" alt="herb" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of herb.
+  static const herb = AnimatedEmojiData(
+    '1f33f',
+    name: 'herb',
+    categories: ['Animals and nature'],
+    tags: [':herb:'],
   );
 
   ///<picture>
@@ -3311,6 +3598,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f335/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f335/512.gif" alt="cactus" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cactus.
+  static const cactus = AnimatedEmojiData(
+    '1f335',
+    name: 'cactus',
+    categories: ['Animals and nature'],
+    tags: [':cactus:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabe/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabe/512.gif" alt="leaflessTree" width="32" height="32">
   ///</picture>
@@ -3324,16 +3624,42 @@ class AnimatedEmojis {
   );
 
   ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_fe0f/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_fe0f/512.gif" alt="snowflake" width="32" height="32">
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f332/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f332/512.gif" alt="evergreenTree" width="32" height="32">
   ///</picture>
   ///
-  /// Animated emoji of snowflake.
-  static const snowflake = AnimatedEmojiData(
-    '2744_fe0f',
-    name: 'snowflake',
+  /// Animated emoji of evergreenTree.
+  static const evergreenTree = AnimatedEmojiData(
+    '1f332',
+    name: 'evergreenTree',
     categories: ['Animals and nature'],
-    tags: [':snowflake:', ':winter:', ':cold:'],
+    tags: [':evergreen-tree:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1faa8/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1faa8/512.gif" alt="rock" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of rock.
+  static const rock = AnimatedEmojiData(
+    '1faa8',
+    name: 'rock',
+    categories: ['Animals and nature'],
+    tags: [':rock:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6d8/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6d8/512.gif" alt="debris" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of debris.
+  static const debris = AnimatedEmojiData(
+    '1f6d8',
+    name: 'debris',
+    categories: ['Animals and nature'],
+    tags: [':debris:', ':landslide:'],
   );
 
   ///<picture>
@@ -3347,6 +3673,19 @@ class AnimatedEmojis {
     name: 'volcano',
     categories: ['Animals and nature'],
     tags: [':volcano:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3de_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3de_fe0f/512.gif" alt="nationalPark" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of nationalPark.
+  static const nationalPark = AnimatedEmojiData(
+    '1f3de_fe0f',
+    name: 'nationalPark',
+    categories: ['Animals and nature'],
+    tags: [':national-park:'],
   );
 
   ///<picture>
@@ -3376,32 +3715,6 @@ class AnimatedEmojis {
   );
 
   ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f308/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f308/512.gif" alt="rainbow" width="32" height="32">
-  ///</picture>
-  ///
-  /// Animated emoji of rainbow.
-  static const rainbow = AnimatedEmojiData(
-    '1f308',
-    name: 'rainbow',
-    categories: ['Animals and nature'],
-    tags: [':rainbow:'],
-  );
-
-  ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fae7/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fae7/512.gif" alt="bubbles" width="32" height="32">
-  ///</picture>
-  ///
-  /// Animated emoji of bubbles.
-  static const bubbles = AnimatedEmojiData(
-    '1fae7',
-    name: 'bubbles',
-    categories: ['Animals and nature'],
-    tags: [':bubbles:'],
-  );
-
-  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30a/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30a/512.gif" alt="ocean" width="32" height="32">
   ///</picture>
@@ -3428,6 +3741,32 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2744_fe0f/512.gif" alt="snowflake" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of snowflake.
+  static const snowflake = AnimatedEmojiData(
+    '2744_fe0f',
+    name: 'snowflake',
+    categories: ['Animals and nature'],
+    tags: [':snowflake:', ':winter:', ':cold:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f300/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f300/512.gif" alt="cyclone" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cyclone.
+  static const cyclone = AnimatedEmojiData(
+    '1f300',
+    name: 'cyclone',
+    categories: ['Animals and nature'],
+    tags: [':cyclone:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32a_fe0f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32a_fe0f/512.gif" alt="tornado" width="32" height="32">
   ///</picture>
@@ -3441,6 +3780,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f308/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f308/512.gif" alt="rainbow" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of rainbow.
+  static const rainbow = AnimatedEmojiData(
+    '1f308',
+    name: 'rainbow',
+    categories: ['Animals and nature'],
+    tags: [':rainbow:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a7/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a7/512.gif" alt="droplet" width="32" height="32">
   ///</picture>
@@ -3451,6 +3803,19 @@ class AnimatedEmojis {
     name: 'droplet',
     categories: ['Animals and nature'],
     tags: [':droplet:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2601_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2601_fe0f/512.gif" alt="cloud" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cloud.
+  static const cloud = AnimatedEmojiData(
+    '2601_fe0f',
+    name: 'cloud',
+    categories: ['Animals and nature'],
+    tags: [':cloud:'],
   );
 
   ///<picture>
@@ -3477,6 +3842,32 @@ class AnimatedEmojis {
     name: 'cloudWithLightning',
     categories: ['Animals and nature'],
     tags: [':cloud-with-lightning:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/26c5/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/26c5/512.gif" alt="partlySunny" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of partlySunny.
+  static const partlySunny = AnimatedEmojiData(
+    '26c5',
+    name: 'partlySunny',
+    categories: ['Animals and nature'],
+    tags: [':partly-sunny:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa90/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa90/512.gif" alt="ringedPlanet" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of ringedPlanet.
+  static const ringedPlanet = AnimatedEmojiData(
+    '1fa90',
+    name: 'ringedPlanet',
+    categories: ['Animals and nature'],
+    tags: [':ringed-planet:'],
   );
 
   ///<picture>
@@ -3519,6 +3910,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30c/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30c/512.gif" alt="milkyWay" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of milkyWay.
+  static const milkyWay = AnimatedEmojiData(
+    '1f30c',
+    name: 'milkyWay',
+    categories: ['Animals and nature'],
+    tags: [':milky-way:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.gif" alt="comet" width="32" height="32">
   ///</picture>
@@ -3529,6 +3933,71 @@ class AnimatedEmojis {
     name: 'comet',
     categories: ['Animals and nature'],
     tags: [':comet:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f981/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f981/512.gif" alt="lionFace" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of lionFace.
+  static const lionFace = AnimatedEmojiData(
+    '1f981',
+    name: 'lionFace',
+    categories: ['Animals and nature'],
+    tags: [':lion-face:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43a/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43a/512.gif" alt="wolf" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of wolf.
+  static const wolf = AnimatedEmojiData(
+    '1f43a',
+    name: 'wolf',
+    categories: ['Animals and nature'],
+    tags: [':wolf:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43b/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43b/512.gif" alt="bearFace" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of bearFace.
+  static const bearFace = AnimatedEmojiData(
+    '1f43b',
+    name: 'bearFace',
+    categories: ['Animals and nature'],
+    tags: [':bear-face:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43c/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f43c/512.gif" alt="panda" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of panda.
+  static const panda = AnimatedEmojiData(
+    '1f43c',
+    name: 'panda',
+    categories: ['Animals and nature'],
+    tags: [':panda:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f98a/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f98a/512.gif" alt="foxFace" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of foxFace.
+  static const foxFace = AnimatedEmojiData(
+    '1f98a',
+    name: 'foxFace',
+    categories: ['Animals and nature'],
+    tags: [':fox-face:'],
   );
 
   ///<picture>
@@ -3805,6 +4274,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a5/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a5/512.gif" alt="sloth" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of sloth.
+  static const sloth = AnimatedEmojiData(
+    '1f9a5',
+    name: 'sloth',
+    categories: ['Animals and nature'],
+    tags: [':sloth:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f998/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f998/512.gif" alt="kangaroo" width="32" height="32">
   ///</picture>
@@ -3880,6 +4362,32 @@ class AnimatedEmojis {
     name: 'chipmunk',
     categories: ['Animals and nature'],
     tags: [':chipmunk:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f99d/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f99d/512.gif" alt="raccoon" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of raccoon.
+  static const raccoon = AnimatedEmojiData(
+    '1f99d',
+    name: 'raccoon',
+    categories: ['Animals and nature'],
+    tags: [':raccoon:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f994/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f994/512.gif" alt="hedgehog" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hedgehog.
+  static const hedgehog = AnimatedEmojiData(
+    '1f994',
+    name: 'hedgehog',
+    categories: ['Animals and nature'],
+    tags: [':hedgehog:'],
   );
 
   ///<picture>
@@ -4039,6 +4547,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a9/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a9/512.gif" alt="flamingo" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of flamingo.
+  static const flamingo = AnimatedEmojiData(
+    '1f9a9',
+    name: 'flamingo',
+    categories: ['Animals and nature'],
+    tags: [':flamingo:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f99a/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f99a/512.gif" alt="peacock" width="32" height="32">
   ///</picture>
@@ -4065,6 +4586,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f427/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f427/512.gif" alt="penguin" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of penguin.
+  static const penguin = AnimatedEmojiData(
+    '1f427',
+    name: 'penguin',
+    categories: ['Animals and nature'],
+    tags: [':penguin:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9ad/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9ad/512.gif" alt="seal" width="32" height="32">
   ///</picture>
@@ -4088,6 +4622,19 @@ class AnimatedEmojis {
     name: 'shark',
     categories: ['Animals and nature'],
     tags: [':shark:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1facd/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1facd/512.gif" alt="orca" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of orca.
+  static const orca = AnimatedEmojiData(
+    '1facd',
+    name: 'orca',
+    categories: ['Animals and nature'],
+    tags: [':orca:'],
   );
 
   ///<picture>
@@ -4195,6 +4742,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fae7/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fae7/512.gif" alt="bubbles" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of bubbles.
+  static const bubbles = AnimatedEmojiData(
+    '1fae7',
+    name: 'bubbles',
+    categories: ['Animals and nature'],
+    tags: [':bubbles:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f982/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f982/512.gif" alt="scorpion" width="32" height="32">
   ///</picture>
@@ -4244,6 +4804,19 @@ class AnimatedEmojis {
     name: 'ant',
     categories: ['Animals and nature'],
     tags: [':ant:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f997/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f997/512.gif" alt="cricket" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cricket.
+  static const cricket = AnimatedEmojiData(
+    '1f997',
+    name: 'cricket',
+    categories: ['Animals and nature'],
+    tags: [':cricket:'],
   );
 
   ///<picture>
@@ -4364,6 +4937,45 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f353/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f353/512.gif" alt="strawberry" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of strawberry.
+  static const strawberry = AnimatedEmojiData(
+    '1f353',
+    name: 'strawberry',
+    categories: ['Food and drink'],
+    tags: [':strawberry:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f352/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f352/512.gif" alt="cherries" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cherries.
+  static const cherries = AnimatedEmojiData(
+    '1f352',
+    name: 'cherries',
+    categories: ['Food and drink'],
+    tags: [':cherries:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f34e/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f34e/512.gif" alt="redApple" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of redApple.
+  static const redApple = AnimatedEmojiData(
+    '1f34e',
+    name: 'redApple',
+    categories: ['Food and drink'],
+    tags: [':red-apple:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f345/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f345/512.gif" alt="tomato" width="32" height="32">
   ///</picture>
@@ -4374,6 +4986,240 @@ class AnimatedEmojis {
     name: 'tomato',
     categories: ['Food and drink'],
     tags: [':tomato:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f349/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f349/512.gif" alt="watermelon" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of watermelon.
+  static const watermelon = AnimatedEmojiData(
+    '1f349',
+    name: 'watermelon',
+    categories: ['Food and drink'],
+    tags: [':watermelon:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f34a/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f34a/512.gif" alt="tangerine" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of tangerine.
+  static const tangerine = AnimatedEmojiData(
+    '1f34a',
+    name: 'tangerine',
+    categories: ['Food and drink'],
+    tags: [':tangerine:', ':orange:', ':mandarin:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f955/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f955/512.gif" alt="carrot" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of carrot.
+  static const carrot = AnimatedEmojiData(
+    '1f955',
+    name: 'carrot',
+    categories: ['Food and drink'],
+    tags: [':carrot:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f96d/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f96d/512.gif" alt="mango" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of mango.
+  static const mango = AnimatedEmojiData(
+    '1f96d',
+    name: 'mango',
+    categories: ['Food and drink'],
+    tags: [':mango:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f34d/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f34d/512.gif" alt="pineapple" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of pineapple.
+  static const pineapple = AnimatedEmojiData(
+    '1f34d',
+    name: 'pineapple',
+    categories: ['Food and drink'],
+    tags: [':pineapple:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f33d/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f33d/512.gif" alt="earOfCorn" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of earOfCorn.
+  static const earOfCorn = AnimatedEmojiData(
+    '1f33d',
+    name: 'earOfCorn',
+    categories: ['Food and drink'],
+    tags: [':ear-of-corn:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f34b/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f34b/512.gif" alt="lemon" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of lemon.
+  static const lemon = AnimatedEmojiData(
+    '1f34b',
+    name: 'lemon',
+    categories: ['Food and drink'],
+    tags: [':lemon:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f348/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f348/512.gif" alt="melon" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of melon.
+  static const melon = AnimatedEmojiData(
+    '1f348',
+    name: 'melon',
+    categories: ['Food and drink'],
+    tags: [':melon:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f350/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f350/512.gif" alt="pear" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of pear.
+  static const pear = AnimatedEmojiData(
+    '1f350',
+    name: 'pear',
+    categories: ['Food and drink'],
+    tags: [':pear:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fadb/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fadb/512.gif" alt="peaPod" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of peaPod.
+  static const peaPod = AnimatedEmojiData(
+    '1fadb',
+    name: 'peaPod',
+    categories: ['Food and drink'],
+    tags: [':pea-pod:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f96c/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f96c/512.gif" alt="leafyGreen" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of leafyGreen.
+  static const leafyGreen = AnimatedEmojiData(
+    '1f96c',
+    name: 'leafyGreen',
+    categories: ['Food and drink'],
+    tags: [':leafy-green:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fad1/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fad1/512.gif" alt="bellPepper" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of bellPepper.
+  static const bellPepper = AnimatedEmojiData(
+    '1fad1',
+    name: 'bellPepper',
+    categories: ['Food and drink'],
+    tags: [':bell-pepper:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f95d/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f95d/512.gif" alt="kiwiFruit" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of kiwiFruit.
+  static const kiwiFruit = AnimatedEmojiData(
+    '1f95d',
+    name: 'kiwiFruit',
+    categories: ['Food and drink'],
+    tags: [':kiwi-fruit:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f951/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f951/512.gif" alt="avocado" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of avocado.
+  static const avocado = AnimatedEmojiData(
+    '1f951',
+    name: 'avocado',
+    categories: ['Food and drink'],
+    tags: [':avocado:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f966/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f966/512.gif" alt="broccoli" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of broccoli.
+  static const broccoli = AnimatedEmojiData(
+    '1f966',
+    name: 'broccoli',
+    categories: ['Food and drink'],
+    tags: [':broccoli:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f952/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f952/512.gif" alt="cucumber" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cucumber.
+  static const cucumber = AnimatedEmojiData(
+    '1f952',
+    name: 'cucumber',
+    categories: ['Food and drink'],
+    tags: [':cucumber:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fad0/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fad0/512.gif" alt="blueberries" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of blueberries.
+  static const blueberries = AnimatedEmojiData(
+    '1fad0',
+    name: 'blueberries',
+    categories: ['Food and drink'],
+    tags: [':blueberries:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f347/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f347/512.gif" alt="grapes" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of grapes.
+  static const grapes = AnimatedEmojiData(
+    '1f347',
+    name: 'grapes',
+    categories: ['Food and drink'],
+    tags: [':grapes:'],
   );
 
   ///<picture>
@@ -4390,6 +5236,97 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f954/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f954/512.gif" alt="potato" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of potato.
+  static const potato = AnimatedEmojiData(
+    '1f954',
+    name: 'potato',
+    categories: ['Food and drink'],
+    tags: [':potato:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c5/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c5/512.gif" alt="onion" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of onion.
+  static const onion = AnimatedEmojiData(
+    '1f9c5',
+    name: 'onion',
+    categories: ['Food and drink'],
+    tags: [':onion:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fada/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fada/512.gif" alt="ginger" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of ginger.
+  static const ginger = AnimatedEmojiData(
+    '1fada',
+    name: 'ginger',
+    categories: ['Food and drink'],
+    tags: [':ginger:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c4/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c4/512.gif" alt="garlic" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of garlic.
+  static const garlic = AnimatedEmojiData(
+    '1f9c4',
+    name: 'garlic',
+    categories: ['Food and drink'],
+    tags: [':garlic:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fad8/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fad8/512.gif" alt="beans" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of beans.
+  static const beans = AnimatedEmojiData(
+    '1fad8',
+    name: 'beans',
+    categories: ['Food and drink'],
+    tags: [':beans:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f35e/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f35e/512.gif" alt="bread" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of bread.
+  static const bread = AnimatedEmojiData(
+    '1f35e',
+    name: 'bread',
+    categories: ['Food and drink'],
+    tags: [':bread:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f95e/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f95e/512.gif" alt="pancakes" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of pancakes.
+  static const pancakes = AnimatedEmojiData(
+    '1f95e',
+    name: 'pancakes',
+    categories: ['Food and drink'],
+    tags: [':pancakes:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f373/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f373/512.gif" alt="cooking" width="32" height="32">
   ///</picture>
@@ -4400,6 +5337,110 @@ class AnimatedEmojis {
     name: 'cooking',
     categories: ['Food and drink'],
     tags: [':cooking:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c0/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c0/512.gif" alt="cheeseWedge" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cheeseWedge.
+  static const cheeseWedge = AnimatedEmojiData(
+    '1f9c0',
+    name: 'cheeseWedge',
+    categories: ['Food and drink'],
+    tags: [':cheese-wedge:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f953/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f953/512.gif" alt="bacon" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of bacon.
+  static const bacon = AnimatedEmojiData(
+    '1f953',
+    name: 'bacon',
+    categories: ['Food and drink'],
+    tags: [':bacon:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f357/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f357/512.gif" alt="poultryLeg" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of poultryLeg.
+  static const poultryLeg = AnimatedEmojiData(
+    '1f357',
+    name: 'poultryLeg',
+    categories: ['Food and drink'],
+    tags: [':poultry-leg:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f354/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f354/512.gif" alt="hamburger" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hamburger.
+  static const hamburger = AnimatedEmojiData(
+    '1f354',
+    name: 'hamburger',
+    categories: ['Food and drink'],
+    tags: [':hamburger:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32d/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32d/512.gif" alt="hotDog" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hotDog.
+  static const hotDog = AnimatedEmojiData(
+    '1f32d',
+    name: 'hotDog',
+    categories: ['Food and drink'],
+    tags: [':hot-dog:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f968/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f968/512.gif" alt="pretzel" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of pretzel.
+  static const pretzel = AnimatedEmojiData(
+    '1f968',
+    name: 'pretzel',
+    categories: ['Food and drink'],
+    tags: [':pretzel:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f355/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f355/512.gif" alt="pizza" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of pizza.
+  static const pizza = AnimatedEmojiData(
+    '1f355',
+    name: 'pizza',
+    categories: ['Food and drink'],
+    tags: [':pizza:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32e/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f32e/512.gif" alt="taco" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of taco.
+  static const taco = AnimatedEmojiData(
+    '1f32e',
+    name: 'taco',
+    categories: ['Food and drink'],
+    tags: [':taco:'],
   );
 
   ///<picture>
@@ -4429,6 +5470,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f957/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f957/512.gif" alt="greenSalad" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of greenSalad.
+  static const greenSalad = AnimatedEmojiData(
+    '1f957',
+    name: 'greenSalad',
+    categories: ['Food and drink'],
+    tags: [':green-salad:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f35c/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f35c/512.gif" alt="steamingBowl" width="32" height="32">
   ///</picture>
@@ -4439,6 +5493,110 @@ class AnimatedEmojis {
     name: 'steamingBowl',
     categories: ['Food and drink'],
     tags: [':steaming-bowl:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f362/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f362/512.gif" alt="oden" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of oden.
+  static const oden = AnimatedEmojiData(
+    '1f362',
+    name: 'oden',
+    categories: ['Food and drink'],
+    tags: [':oden:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f361/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f361/512.gif" alt="dango" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of dango.
+  static const dango = AnimatedEmojiData(
+    '1f361',
+    name: 'dango',
+    categories: ['Food and drink'],
+    tags: [':dango:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f368/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f368/512.gif" alt="iceCream" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of iceCream.
+  static const iceCream = AnimatedEmojiData(
+    '1f368',
+    name: 'iceCream',
+    categories: ['Food and drink'],
+    tags: [':ice-cream:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f366/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f366/512.gif" alt="softIceCream" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of softIceCream.
+  static const softIceCream = AnimatedEmojiData(
+    '1f366',
+    name: 'softIceCream',
+    categories: ['Food and drink'],
+    tags: [':soft-ice-cream:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f967/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f967/512.gif" alt="pie" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of pie.
+  static const pie = AnimatedEmojiData(
+    '1f967',
+    name: 'pie',
+    categories: ['Food and drink'],
+    tags: [':pie:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f369/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f369/512.gif" alt="doughnut" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of doughnut.
+  static const doughnut = AnimatedEmojiData(
+    '1f369',
+    name: 'doughnut',
+    categories: ['Food and drink'],
+    tags: [':doughnut:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f36a/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f36a/512.gif" alt="cookie" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of cookie.
+  static const cookie = AnimatedEmojiData(
+    '1f36a',
+    name: 'cookie',
+    categories: ['Food and drink'],
+    tags: [':cookie:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c2/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c2/512.gif" alt="salt" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of salt.
+  static const salt = AnimatedEmojiData(
+    '1f9c2',
+    name: 'salt',
+    categories: ['Food and drink'],
+    tags: [':salt:'],
   );
 
   ///<picture>
@@ -4455,6 +5613,58 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9cb/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9cb/512.gif" alt="bubbleTea" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of bubbleTea.
+  static const bubbleTea = AnimatedEmojiData(
+    '1f9cb',
+    name: 'bubbleTea',
+    categories: ['Food and drink'],
+    tags: [':bubble-tea:', ':milk-tea:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c3/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c3/512.gif" alt="beverageBox" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of beverageBox.
+  static const beverageBox = AnimatedEmojiData(
+    '1f9c3',
+    name: 'beverageBox',
+    categories: ['Food and drink'],
+    tags: [':beverage-box:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f37c/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f37c/512.gif" alt="babyBottle" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of babyBottle.
+  static const babyBottle = AnimatedEmojiData(
+    '1f37c',
+    name: 'babyBottle',
+    categories: ['Food and drink'],
+    tags: [':baby-bottle:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f375/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f375/512.gif" alt="teacupWithoutHandle" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of teacupWithoutHandle.
+  static const teacupWithoutHandle = AnimatedEmojiData(
+    '1f375',
+    name: 'teacupWithoutHandle',
+    categories: ['Food and drink'],
+    tags: [':teacup-without-handle:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2615/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2615/512.gif" alt="hotBeverage" width="32" height="32">
   ///</picture>
@@ -4465,6 +5675,32 @@ class AnimatedEmojis {
     name: 'hotBeverage',
     categories: ['Food and drink'],
     tags: [':hot-beverage:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fad6/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fad6/512.gif" alt="teapot" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of teapot.
+  static const teapot = AnimatedEmojiData(
+    '1fad6',
+    name: 'teapot',
+    categories: ['Food and drink'],
+    tags: [':teapot:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c9/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c9/512.gif" alt="mate" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of mate.
+  static const mate = AnimatedEmojiData(
+    '1f9c9',
+    name: 'mate',
+    categories: ['Food and drink'],
+    tags: [':mate:'],
   );
 
   ///<picture>
@@ -4546,6 +5782,45 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f962/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f962/512.gif" alt="chopsticks" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of chopsticks.
+  static const chopsticks = AnimatedEmojiData(
+    '1f962',
+    name: 'chopsticks',
+    categories: ['Food and drink'],
+    tags: [':chopsticks:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f37d_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f37d_fe0f/512.gif" alt="forkAndKnifeWithPlate" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of forkAndKnifeWithPlate.
+  static const forkAndKnifeWithPlate = AnimatedEmojiData(
+    '1f37d_fe0f',
+    name: 'forkAndKnifeWithPlate',
+    categories: ['Food and drink'],
+    tags: [':fork-and-knife-with-plate:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6d1/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6d1/512.gif" alt="stopSign" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of stopSign.
+  static const stopSign = AnimatedEmojiData(
+    '1f6d1',
+    name: 'stopSign',
+    categories: ['Travel and places'],
+    tags: [':stop-sign:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6a7/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6a7/512.gif" alt="construction" width="32" height="32">
   ///</picture>
@@ -4572,6 +5847,58 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/26fd/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/26fd/512.gif" alt="fuelPump" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of fuelPump.
+  static const fuelPump = AnimatedEmojiData(
+    '26fd',
+    name: 'fuelPump',
+    categories: ['Travel and places'],
+    tags: [':fuel-pump:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6df/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6df/512.gif" alt="ringBuoy" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of ringBuoy.
+  static const ringBuoy = AnimatedEmojiData(
+    '1f6df',
+    name: 'ringBuoy',
+    categories: ['Travel and places'],
+    tags: [':ring-buoy:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2693/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2693/512.gif" alt="anchor" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of anchor.
+  static const anchor = AnimatedEmojiData(
+    '2693',
+    name: 'anchor',
+    categories: ['Travel and places'],
+    tags: [':anchor:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6a6/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6a6/512.gif" alt="verticalTrafficLight" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of verticalTrafficLight.
+  static const verticalTrafficLight = AnimatedEmojiData(
+    '1f6a6',
+    name: 'verticalTrafficLight',
+    categories: ['Travel and places'],
+    tags: [':vertical-traffic-light:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6b2/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6b2/512.gif" alt="bicycle" width="32" height="32">
   ///</picture>
@@ -4585,6 +5912,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3cd_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3cd_fe0f/512.gif" alt="motorcycle" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of motorcycle.
+  static const motorcycle = AnimatedEmojiData(
+    '1f3cd_fe0f',
+    name: 'motorcycle',
+    categories: ['Travel and places'],
+    tags: [':motorcycle:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f697/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f697/512.gif" alt="automobile" width="32" height="32">
   ///</picture>
@@ -4595,6 +5935,32 @@ class AnimatedEmojis {
     name: 'automobile',
     categories: ['Travel and places'],
     tags: [':automobile:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f69a/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f69a/512.gif" alt="deliveryTruck" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of deliveryTruck.
+  static const deliveryTruck = AnimatedEmojiData(
+    '1f69a',
+    name: 'deliveryTruck',
+    categories: ['Travel and places'],
+    tags: [':delivery-truck:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f69c/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f69c/512.gif" alt="tractor" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of tractor.
+  static const tractor = AnimatedEmojiData(
+    '1f69c',
+    name: 'tractor',
+    categories: ['Travel and places'],
+    tags: [':tractor:'],
   );
 
   ///<picture>
@@ -4634,6 +6000,19 @@ class AnimatedEmojis {
     name: 'bus',
     categories: ['Travel and places'],
     tags: [':bus:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f682/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f682/512.gif" alt="locomotive" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of locomotive.
+  static const locomotive = AnimatedEmojiData(
+    '1f682',
+    name: 'locomotive',
+    categories: ['Travel and places'],
+    tags: [':locomotive:'],
   );
 
   ///<picture>
@@ -4689,6 +6068,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2708_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2708_fe0f/512.gif" alt="airplane" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of airplane.
+  static const airplane = AnimatedEmojiData(
+    '2708_fe0f',
+    name: 'airplane',
+    categories: ['Travel and places'],
+    tags: [':airplane:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6eb/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6eb/512.gif" alt="airplaneDeparture" width="32" height="32">
   ///</picture>
@@ -4741,6 +6133,58 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3a0/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3a0/512.gif" alt="carouselHorse" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of carouselHorse.
+  static const carouselHorse = AnimatedEmojiData(
+    '1f3a0',
+    name: 'carouselHorse',
+    categories: ['Travel and places'],
+    tags: [':carousel-horse:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5ff/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5ff/512.gif" alt="moai" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of moai.
+  static const moai = AnimatedEmojiData(
+    '1f5ff',
+    name: 'moai',
+    categories: ['Travel and places'],
+    tags: [':moai:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3da_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3da_fe0f/512.gif" alt="derelictHouse" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of derelictHouse.
+  static const derelictHouse = AnimatedEmojiData(
+    '1f3da_fe0f',
+    name: 'derelictHouse',
+    categories: ['Travel and places'],
+    tags: [':derelict-house:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3e0/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3e0/512.gif" alt="house" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of house.
+  static const house = AnimatedEmojiData(
+    '1f3e0',
+    name: 'house',
+    categories: ['Travel and places'],
+    tags: [':house:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3d5_fe0f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3d5_fe0f/512.gif" alt="camping" width="32" height="32">
   ///</picture>
@@ -4751,6 +6195,19 @@ class AnimatedEmojis {
     name: 'camping',
     categories: ['Travel and places'],
     tags: [':camping:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f307/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f307/512.gif" alt="sunset" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of sunset.
+  static const sunset = AnimatedEmojiData(
+    '1f307',
+    name: 'sunset',
+    categories: ['Travel and places'],
+    tags: [':sunset:'],
   );
 
   ///<picture>
@@ -4803,6 +6260,19 @@ class AnimatedEmojis {
     name: 'fireworks',
     categories: ['Activities and events'],
     tags: [':fireworks:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa94/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa94/512.gif" alt="diyaLamp" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of diyaLamp.
+  static const diyaLamp = AnimatedEmojiData(
+    '1fa94',
+    name: 'diyaLamp',
+    categories: ['Activities and events'],
+    tags: [':diya-lamp:'],
   );
 
   ///<picture>
@@ -4923,6 +6393,32 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c0/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c0/512.gif" alt="basketball" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of basketball.
+  static const basketball = AnimatedEmojiData(
+    '1f3c0',
+    name: 'basketball',
+    categories: ['Activities and events'],
+    tags: [':basketball:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c9/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c9/512.gif" alt="rugbyFootball" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of rugbyFootball.
+  static const rugbyFootball = AnimatedEmojiData(
+    '1f3c9',
+    name: 'rugbyFootball',
+    categories: ['Activities and events'],
+    tags: [':rugby-football:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3be/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3be/512.gif" alt="tennis" width="32" height="32">
   ///</picture>
@@ -4998,6 +6494,19 @@ class AnimatedEmojis {
     name: 'iceHockey',
     categories: ['Activities and events'],
     tags: [':ice-hockey:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3bf/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3bf/512.gif" alt="skis" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of skis.
+  static const skis = AnimatedEmojiData(
+    '1f3bf',
+    name: 'skis',
+    categories: ['Activities and events'],
+    tags: [':skis:'],
   );
 
   ///<picture>
@@ -5183,6 +6692,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/265f_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/265f_fe0f/512.gif" alt="chessPawn" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of chessPawn.
+  static const chessPawn = AnimatedEmojiData(
+    '265f_fe0f',
+    name: 'chessPawn',
+    categories: ['Activities and events'],
+    tags: [':chess-pawn:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3b2/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3b2/512.gif" alt="die" width="32" height="32">
   ///</picture>
@@ -5219,6 +6741,19 @@ class AnimatedEmojis {
     name: 'wand',
     categories: ['Activities and events'],
     tags: [':wand:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4f7/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4f7/512.gif" alt="camera" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of camera.
+  static const camera = AnimatedEmojiData(
+    '1f4f7',
+    name: 'camera',
+    categories: ['Activities and events'],
+    tags: [':camera:'],
   );
 
   ///<picture>
@@ -5274,6 +6809,45 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa8a/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa8a/512.gif" alt="trombone" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of trombone.
+  static const trombone = AnimatedEmojiData(
+    '1fa8a',
+    name: 'trombone',
+    categories: ['Activities and events'],
+    tags: [':trombone:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3b8/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3b8/512.gif" alt="guitar" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of guitar.
+  static const guitar = AnimatedEmojiData(
+    '1f3b8',
+    name: 'guitar',
+    categories: ['Activities and events'],
+    tags: [':guitar:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa95/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa95/512.gif" alt="banjo" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of banjo.
+  static const banjo = AnimatedEmojiData(
+    '1fa95',
+    name: 'banjo',
+    categories: ['Activities and events'],
+    tags: [':banjo:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3bb/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3bb/512.gif" alt="violin" width="32" height="32">
   ///</picture>
@@ -5326,6 +6900,32 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4fa/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4fa/512.gif" alt="television" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of television.
+  static const television = AnimatedEmojiData(
+    '1f4fa',
+    name: 'television',
+    categories: ['Activities and events'],
+    tags: [':television:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f39e_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f39e_fe0f/512.gif" alt="film" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of film.
+  static const film = AnimatedEmojiData(
+    '1f39e_fe0f',
+    name: 'film',
+    categories: ['Activities and events'],
+    tags: [':film:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ac/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ac/512.gif" alt="clapper" width="32" height="32">
   ///</picture>
@@ -5336,6 +6936,58 @@ class AnimatedEmojis {
     name: 'clapper',
     categories: ['Activities and events'],
     tags: [':clapper:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ad/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ad/512.gif" alt="performingArts" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of performingArts.
+  static const performingArts = AnimatedEmojiData(
+    '1f3ad',
+    name: 'performingArts',
+    categories: ['Activities and events'],
+    tags: [':performing-arts:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f39f_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f39f_fe0f/512.gif" alt="admissionTickets" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of admissionTickets.
+  static const admissionTickets = AnimatedEmojiData(
+    '1f39f_fe0f',
+    name: 'admissionTickets',
+    categories: ['Activities and events'],
+    tags: [':admission-tickets:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4df/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4df/512.gif" alt="pager" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of pager.
+  static const pager = AnimatedEmojiData(
+    '1f4df',
+    name: 'pager',
+    categories: ['Objects'],
+    tags: [':pager:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f50c/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f50c/512.gif" alt="electricPlug" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of electricPlug.
+  static const electricPlug = AnimatedEmojiData(
+    '1f50c',
+    name: 'electricPlug',
+    categories: ['Objects'],
+    tags: [':electric-plug:'],
   );
 
   ///<picture>
@@ -5365,6 +7017,58 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4bf/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4bf/512.gif" alt="opticalDisk" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of opticalDisk.
+  static const opticalDisk = AnimatedEmojiData(
+    '1f4bf',
+    name: 'opticalDisk',
+    categories: ['Objects'],
+    tags: [':optical-disk:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4bb/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4bb/512.gif" alt="laptopComputer" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of laptopComputer.
+  static const laptopComputer = AnimatedEmojiData(
+    '1f4bb',
+    name: 'laptopComputer',
+    categories: ['Objects'],
+    tags: [':laptop-computer:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5a8_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5a8_fe0f/512.gif" alt="printer" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of printer.
+  static const printer = AnimatedEmojiData(
+    '1f5a8_fe0f',
+    name: 'printer',
+    categories: ['Objects'],
+    tags: [':printer:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa8e/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa8e/512.gif" alt="treasure" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of treasure.
+  static const treasure = AnimatedEmojiData(
+    '1fa8e',
+    name: 'treasure',
+    categories: ['Objects'],
+    tags: [':treasure:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa99/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa99/512.gif" alt="coin" width="32" height="32">
   ///</picture>
@@ -5375,19 +7079,6 @@ class AnimatedEmojis {
     name: 'coin',
     categories: ['Objects'],
     tags: [':coin:'],
-  );
-
-  ///<picture>
-  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4b8/512.webp" type="image/webp">
-  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4b8/512.gif" alt="moneyWithWings" width="32" height="32">
-  ///</picture>
-  ///
-  /// Animated emoji of moneyWithWings.
-  static const moneyWithWings = AnimatedEmojiData(
-    '1f4b8',
-    name: 'moneyWithWings',
-    categories: ['Objects'],
-    tags: [':money-with-wings:'],
   );
 
   ///<picture>
@@ -5404,6 +7095,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4b8/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4b8/512.gif" alt="moneyWithWings" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of moneyWithWings.
+  static const moneyWithWings = AnimatedEmojiData(
+    '1f4b8',
+    name: 'moneyWithWings',
+    categories: ['Objects'],
+    tags: [':money-with-wings:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2696_fe0f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2696_fe0f/512.gif" alt="balanceScale" width="32" height="32">
   ///</picture>
@@ -5414,6 +7118,19 @@ class AnimatedEmojis {
     name: 'balanceScale',
     categories: ['Objects'],
     tags: [':balance-scale:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6d2/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6d2/512.gif" alt="shoppingCart" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of shoppingCart.
+  static const shoppingCart = AnimatedEmojiData(
+    '1f6d2',
+    name: 'shoppingCart',
+    categories: ['Objects'],
+    tags: [':shopping-cart:'],
   );
 
   ///<picture>
@@ -5430,6 +7147,32 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9f9/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9f9/512.gif" alt="broom" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of broom.
+  static const broom = AnimatedEmojiData(
+    '1f9f9',
+    name: 'broom',
+    categories: ['Objects'],
+    tags: [':broom:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9e6/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f9e6/512.gif" alt="socks" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of socks.
+  static const socks = AnimatedEmojiData(
+    '1f9e6',
+    name: 'socks',
+    categories: ['Objects'],
+    tags: [':socks:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f393/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f393/512.gif" alt="graduationCap" width="32" height="32">
   ///</picture>
@@ -5440,6 +7183,19 @@ class AnimatedEmojis {
     name: 'graduationCap',
     categories: ['Objects'],
     tags: [':graduation-cap:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f451/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f451/512.gif" alt="crown" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of crown.
+  static const crown = AnimatedEmojiData(
+    '1f451',
+    name: 'crown',
+    categories: ['Objects'],
+    tags: [':crown:'],
   );
 
   ///<picture>
@@ -5482,6 +7238,71 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f460/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f460/512.gif" alt="highHeeledShoe" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of highHeeledShoe.
+  static const highHeeledShoe = AnimatedEmojiData(
+    '1f460',
+    name: 'highHeeledShoe',
+    categories: ['Objects'],
+    tags: [':high-heeled-shoe:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f45f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f45f/512.gif" alt="runningShoe" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of runningShoe.
+  static const runningShoe = AnimatedEmojiData(
+    '1f45f',
+    name: 'runningShoe',
+    categories: ['Objects'],
+    tags: [':running-shoe:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f321_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f321_fe0f/512.gif" alt="thermometer" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of thermometer.
+  static const thermometer = AnimatedEmojiData(
+    '1f321_fe0f',
+    name: 'thermometer',
+    categories: ['Objects'],
+    tags: [':thermometer:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa7a/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa7a/512.gif" alt="stethoscope" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of stethoscope.
+  static const stethoscope = AnimatedEmojiData(
+    '1fa7a',
+    name: 'stethoscope',
+    categories: ['Objects'],
+    tags: [':stethoscope:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6e0_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6e0_fe0f/512.gif" alt="hammerAndWrench" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hammerAndWrench.
+  static const hammerAndWrench = AnimatedEmojiData(
+    '1f6e0_fe0f',
+    name: 'hammerAndWrench',
+    categories: ['Objects'],
+    tags: [':hammer-and-wrench:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa8f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fa8f/512.gif" alt="shovel" width="32" height="32">
   ///</picture>
@@ -5521,6 +7342,45 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/26d3_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/26d3_fe0f/512.gif" alt="chains" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of chains.
+  static const chains = AnimatedEmojiData(
+    '26d3_fe0f',
+    name: 'chains',
+    categories: ['Objects'],
+    tags: [':chains:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f587_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f587_fe0f/512.gif" alt="linkedPaperclips" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of linkedPaperclips.
+  static const linkedPaperclips = AnimatedEmojiData(
+    '1f587_fe0f',
+    name: 'linkedPaperclips',
+    categories: ['Objects'],
+    tags: [':linked-paperclips:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2702_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2702_fe0f/512.gif" alt="scissors" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of scissors.
+  static const scissors = AnimatedEmojiData(
+    '2702_fe0f',
+    name: 'scissors',
+    categories: ['Objects'],
+    tags: [':scissors:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.gif" alt="pencil" width="32" height="32">
   ///</picture>
@@ -5534,6 +7394,97 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4da/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4da/512.gif" alt="books" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of books.
+  static const books = AnimatedEmojiData(
+    '1f4da',
+    name: 'books',
+    categories: ['Objects'],
+    tags: [':books:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ca/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ca/512.gif" alt="barChart" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of barChart.
+  static const barChart = AnimatedEmojiData(
+    '1f4ca',
+    name: 'barChart',
+    categories: ['Objects'],
+    tags: [':bar-chart:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4c8/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4c8/512.gif" alt="chartIncreasing" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of chartIncreasing.
+  static const chartIncreasing = AnimatedEmojiData(
+    '1f4c8',
+    name: 'chartIncreasing',
+    categories: ['Objects'],
+    tags: [':chart-increasing:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4c9/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4c9/512.gif" alt="chartDecreasing" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of chartDecreasing.
+  static const chartDecreasing = AnimatedEmojiData(
+    '1f4c9',
+    name: 'chartDecreasing',
+    categories: ['Objects'],
+    tags: [':chart-decreasing:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5d1_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5d1_fe0f/512.gif" alt="wastebasket" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of wastebasket.
+  static const wastebasket = AnimatedEmojiData(
+    '1f5d1_fe0f',
+    name: 'wastebasket',
+    categories: ['Objects'],
+    tags: [':wastebasket:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4e6/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4e6/512.gif" alt="package" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of package.
+  static const package = AnimatedEmojiData(
+    '1f4e6',
+    name: 'package',
+    categories: ['Objects'],
+    tags: [':package:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5f3_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5f3_fe0f/512.gif" alt="ballotBox" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of ballotBox.
+  static const ballotBox = AnimatedEmojiData(
+    '1f5f3_fe0f',
+    name: 'ballotBox',
+    categories: ['Objects'],
+    tags: [':ballot-box:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/23f0/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/23f0/512.gif" alt="alarmClock" width="32" height="32">
   ///</picture>
@@ -5544,6 +7495,32 @@ class AnimatedEmojis {
     name: 'alarmClock',
     categories: ['Objects'],
     tags: [':alarm-clock:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/231b/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/231b/512.gif" alt="hourglassDone" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hourglassDone.
+  static const hourglassDone = AnimatedEmojiData(
+    '231b',
+    name: 'hourglassDone',
+    categories: ['Objects'],
+    tags: [':hourglass-done:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/23f3/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/23f3/512.gif" alt="hourglassNotDone" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hourglassNotDone.
+  static const hourglassNotDone = AnimatedEmojiData(
+    '23f3',
+    name: 'hourglassNotDone',
+    categories: ['Objects'],
+    tags: [':hourglass-not-done:'],
   );
 
   ///<picture>
@@ -5570,6 +7547,32 @@ class AnimatedEmojis {
     name: 'bell',
     categories: ['Objects'],
     tags: [':bell:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4e3/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4e3/512.gif" alt="megaphone" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of megaphone.
+  static const megaphone = AnimatedEmojiData(
+    '1f4e3',
+    name: 'megaphone',
+    categories: ['Objects'],
+    tags: [':megaphone:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f50e/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f50e/512.gif" alt="magnifyingGlassTiltedRight" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of magnifyingGlassTiltedRight.
+  static const magnifyingGlassTiltedRight = AnimatedEmojiData(
+    '1f50e',
+    name: 'magnifyingGlassTiltedRight',
+    categories: ['Objects'],
+    tags: [':magnifying-glass-tilted-right:'],
   );
 
   ///<picture>
@@ -5622,6 +7625,19 @@ class AnimatedEmojis {
     name: 'locked',
     categories: ['Objects'],
     tags: [':locked:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2660_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2660_fe0f/512.gif" alt="spade" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of spade.
+  static const spade = AnimatedEmojiData(
+    '2660_fe0f',
+    name: 'spade',
+    categories: ['Symbols'],
+    tags: [':spade:'],
   );
 
   ///<picture>
@@ -5794,6 +7810,32 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5ef_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5ef_fe0f/512.gif" alt="angerBubble" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of angerBubble.
+  static const angerBubble = AnimatedEmojiData(
+    '1f5ef_fe0f',
+    name: 'angerBubble',
+    categories: ['Symbols'],
+    tags: [':anger-bubble:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ac/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ac/512.gif" alt="speechBubble" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of speechBubble.
+  static const speechBubble = AnimatedEmojiData(
+    '1f4ac',
+    name: 'speechBubble',
+    categories: ['Symbols'],
+    tags: [':speech-bubble:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2757/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2757/512.gif" alt="exclamation" width="32" height="32">
   ///</picture>
@@ -5869,6 +7911,19 @@ class AnimatedEmojis {
     name: 'sos',
     categories: ['Symbols'],
     tags: [':sos:'],
+  );
+
+  ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2668_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2668_fe0f/512.gif" alt="hotSprings" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of hotSprings.
+  static const hotSprings = AnimatedEmojiData(
+    '2668_fe0f',
+    name: 'hotSprings',
+    categories: ['Symbols'],
+    tags: [':hot-springs:'],
   );
 
   ///<picture>
@@ -5976,6 +8031,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f197/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f197/512.gif" alt="okButton" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of okButton.
+  static const okButton = AnimatedEmojiData(
+    '1f197',
+    name: 'okButton',
+    categories: ['Symbols'],
+    tags: [':ok-button:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f192/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f192/512.gif" alt="cool" width="32" height="32">
   ///</picture>
@@ -6067,6 +8135,19 @@ class AnimatedEmojis {
   );
 
   ///<picture>
+  ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2122_fe0f/512.webp" type="image/webp">
+  ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2122_fe0f/512.gif" alt="tradeMark" width="32" height="32">
+  ///</picture>
+  ///
+  /// Animated emoji of tradeMark.
+  static const tradeMark = AnimatedEmojiData(
+    '2122_fe0f',
+    name: 'tradeMark',
+    categories: ['Symbols'],
+    tags: [':trade-mark:'],
+  );
+
+  ///<picture>
   ///  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c1/512.webp" type="image/webp">
   ///  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3c1/512.gif" alt="chequeredFlag" width="32" height="32">
   ///</picture>
@@ -6155,7 +8236,7 @@ class AnimatedEmojis {
     squintingTongue,
     winkyTongue,
     zanyFace,
-    woozy,
+    distortedFace,
     pensive,
     pleading,
     grimacing,
@@ -6208,8 +8289,9 @@ class AnimatedEmojis {
     xEyes,
     dizzyFace,
     shakingFace,
-    coldFace,
+    woozy,
     hotFace,
+    coldFace,
     sick,
     vomit,
     tired,
@@ -6232,12 +8314,14 @@ class AnimatedEmojis {
     impFrown,
     ghost,
     skull,
+    robot,
+    ogre,
     snowmanWithSnow,
     snowman,
-    jackOLantern,
-    robot,
     alien,
     alienMonster,
+    moonFaceNew,
+    moonFaceFull,
     sunWithFace,
     moonFaceFirstQuarter,
     moonFaceLastQuarter,
@@ -6253,10 +8337,13 @@ class AnimatedEmojis {
     seeNoEvilMonkey,
     hearNoEvilMonkey,
     speakNoEvilMonkey,
+    star,
     glowingStar,
     sparkles,
     electricity,
     collision,
+    fight,
+    hole,
     fire,
     oneHundred,
     partyPopper,
@@ -6282,16 +8369,21 @@ class AnimatedEmojis {
     twoHearts,
     loveLetter,
     heartBox,
+    heart,
     heartExclamationPoint,
     bandagedHeart,
     brokenHeart,
     fireHeart,
     kiss,
+    hugging,
+    speakingHead,
     footprints,
     fingerprint,
+    brain,
     anatomicalHeart,
     blood,
     microbe,
+    bone,
     eyes,
     eye,
     bitingLip,
@@ -6325,6 +8417,7 @@ class AnimatedEmojis {
     palm,
     raisedHand,
     vulcan,
+    loveYouGesture,
     metal,
     victory,
     crossedFingers,
@@ -6345,31 +8438,55 @@ class AnimatedEmojis {
     foldedHands,
     nailCare,
     handshake,
+    parachute,
+    hairyCreature,
     dancerWoman,
     bouquet,
     rose,
     wiltedFlower,
+    tulip,
+    lotus,
+    cherryBlossom,
+    hyacinth,
+    blossom,
     fallenLeaf,
+    mapleLeaf,
+    mushroom,
+    herb,
     plant,
     leaves,
     luck,
+    cactus,
     leaflessTree,
-    snowflake,
+    evergreenTree,
+    rock,
+    debris,
     volcano,
+    nationalPark,
     sunrise,
     sunriseOverMountains,
-    rainbow,
-    bubbles,
     ocean,
     windFace,
+    snowflake,
+    cyclone,
     tornado,
+    rainbow,
     droplet,
+    cloud,
     rainCloud,
     cloudWithLightning,
+    partlySunny,
+    ringedPlanet,
     globeShowingEuropeAfrica,
     globeShowingAmericas,
     globeShowingAsiaAustralia,
+    milkyWay,
     comet,
+    lionFace,
+    wolf,
+    bearFace,
+    panda,
+    foxFace,
     cowFace,
     unicorn,
     lizard,
@@ -6391,12 +8508,15 @@ class AnimatedEmojis {
     donkey,
     ox,
     goat,
+    sloth,
     kangaroo,
     tiger,
     monkey,
     gorilla,
     orangutan,
     chipmunk,
+    raccoon,
+    hedgehog,
     otter,
     bat,
     bird,
@@ -6409,10 +8529,13 @@ class AnimatedEmojis {
     owl,
     peace,
     goose,
+    flamingo,
     peacock,
     phoenix,
+    penguin,
     seal,
     shark,
+    orca,
     dolphin,
     whale,
     fish,
@@ -6421,10 +8544,12 @@ class AnimatedEmojis {
     crab,
     octopus,
     jellyfish,
+    bubbles,
     scorpion,
     spider,
     snail,
     ant,
+    cricket,
     mosquito,
     cockroach,
     fly,
@@ -6434,40 +8559,109 @@ class AnimatedEmojis {
     bug,
     worm,
     pawPrints,
+    strawberry,
+    cherries,
+    redApple,
     tomato,
+    watermelon,
+    tangerine,
+    carrot,
+    mango,
+    pineapple,
+    earOfCorn,
+    lemon,
+    melon,
+    pear,
+    peaPod,
+    leafyGreen,
+    bellPepper,
+    kiwiFruit,
+    avocado,
+    broccoli,
+    cucumber,
+    blueberries,
+    grapes,
     rootVegetable,
+    potato,
+    onion,
+    ginger,
+    garlic,
+    beans,
+    bread,
+    pancakes,
     cooking,
+    cheeseWedge,
+    bacon,
+    poultryLeg,
+    hamburger,
+    hotDog,
+    pretzel,
+    pizza,
+    taco,
     burrito,
     spaghetti,
+    greenSalad,
     steamingBowl,
+    oden,
+    dango,
+    iceCream,
+    softIceCream,
+    pie,
+    doughnut,
+    cookie,
+    salt,
     popcorn,
+    bubbleTea,
+    beverageBox,
+    babyBottle,
+    teacupWithoutHandle,
     hotBeverage,
+    teapot,
+    mate,
     clinkingBeerMugs,
     clinkingGlasses,
     bottleWithPoppingCork,
     wineGlass,
     pour,
     tropicalDrink,
+    chopsticks,
+    forkAndKnifeWithPlate,
+    stopSign,
     construction,
     policeCarLight,
+    fuelPump,
+    ringBuoy,
+    anchor,
+    verticalTrafficLight,
     bicycle,
+    motorcycle,
     automobile,
+    deliveryTruck,
+    tractor,
     racingCar,
     taxi,
     bus,
+    locomotive,
     sailboat,
     canoe,
     flyingSaucer,
     rocket,
+    airplane,
     airplaneDeparture,
     airplaneArrival,
     rollerCoaster,
     ferrisWheel,
+    carouselHorse,
+    moai,
+    derelictHouse,
+    house,
     camping,
+    sunset,
     balloon,
     birthdayCake,
     wrappedGift,
     fireworks,
+    diyaLamp,
     pinata,
     mirrorBall,
     goldMedal,
@@ -6477,12 +8671,15 @@ class AnimatedEmojis {
     soccerBall,
     baseball,
     softball,
+    basketball,
+    rugbyFootball,
     tennis,
     badminton,
     lacrosse,
     cricketGame,
     fieldHockey,
     iceHockey,
+    skis,
     iceSkate,
     rollerSkates,
     balletShoes,
@@ -6497,40 +8694,79 @@ class AnimatedEmojis {
     eightBall,
     pingPong,
     bowling,
+    chessPawn,
     die,
     slotMachine,
     wand,
+    camera,
     cameraFlash,
     splatter,
     saxophone,
     trumpet,
+    trombone,
+    guitar,
+    banjo,
     violin,
     harp,
     drum,
     maracas,
+    television,
+    film,
     clapper,
+    performingArts,
+    admissionTickets,
+    pager,
+    electricPlug,
     batteryFull,
     batteryLow,
+    opticalDisk,
+    laptopComputer,
+    printer,
+    treasure,
     coin,
-    moneyWithWings,
     gemStone,
+    moneyWithWings,
     balanceScale,
+    shoppingCart,
     lightBulb,
+    broom,
+    socks,
     graduationCap,
+    crown,
     ring,
     fan,
     umbrella,
+    highHeeledShoe,
+    runningShoe,
+    thermometer,
+    stethoscope,
+    hammerAndWrench,
     shovel,
     gear,
     brokenChain,
+    chains,
+    linkedPaperclips,
+    scissors,
     pencil,
+    books,
+    barChart,
+    chartIncreasing,
+    chartDecreasing,
+    wastebasket,
+    package,
+    ballotBox,
     alarmClock,
+    hourglassDone,
+    hourglassNotDone,
     bellhopBell,
     bell,
+    megaphone,
+    magnifyingGlassTiltedRight,
     crystalBall,
     bomb,
     mouseTrap,
     locked,
+    spade,
     aries,
     taurus,
     gemini,
@@ -6544,12 +8780,15 @@ class AnimatedEmojis {
     aquarius,
     pisces,
     ophiuchus,
+    angerBubble,
+    speechBubble,
     exclamation,
     question,
     exclamationQuestionMark,
     exclamationDouble,
     crossMark,
     sos,
+    hotSprings,
     phoneOff,
     radioactive,
     biohazard,
@@ -6558,6 +8797,7 @@ class AnimatedEmojis {
     newSymbol,
     free,
     upSymbol,
+    okButton,
     cool,
     litter,
     peaceSymbol,
@@ -6565,6 +8805,7 @@ class AnimatedEmojis {
     infinity,
     musicalNotes,
     plusSign,
+    tradeMark,
     chequeredFlag,
     triangularFlag,
     blackFlag,
